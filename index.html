@@ -1,6 +1,3 @@
-<!--Создание Нового проекта в реакт npx create-react-app my-app, вместо my-app пишу название своего проекта, на пример, tresha_sass. Сборку проекта можно делать одновременно и в локахост, и не в локахосте, но при отправке проекта в гитхаб, нужно заблокировать индекс.штмл в папблик, скопировав предварительно весь код в индекс.штмл, который лежит в корневой папкеДелая сборку не в локахост, нужно заблокировать индекс.штмл, находящийся в папке паблик. Делая сборку в реакт, чтобы потом отправить в гитхаб и со страницы гитхаба, чтобы фотки открылись, фотки нужно использовать с расширением png, когда используешь фотки с компа, jpg гитхаб не принимает. Изменить расширение фоток можно через фигму, скопировав нужное фото в фигму и с фигмы обратно в проект с нужным расширением. Чтобы со страницы гитхаба проект, собранный в реакте открылся, нужно файл штмл из папки паблик вынести в корневую папку и правильно прописать пути к файлам css, js. Один путь прописан в линке, в хэде href="public/scss/base.css", другой в футере для js. Также если использую фотку с компа для бэкграунда в styles.css, base.scss, нужно также прописать правильно путь к фотке, один путь прописан в base.scss, в body background-image: url('../images/abstractfirebloom.png'); если не использую для сборки локахост 3000 и второй путь прописан в файле App.css, в body background-image: url('../public/images/abstractfirebloom.png');, когда использую сборку в локахосте 3000, подключая его через терминал, зайдя в корневую папку проекта tresh_sass, используя команду npm run sart, нужно ещё разблокировать файл индекс.штмл, находящийся в папке паблик. Сборка при написании проекта в компе проходит без вопросов расширение jpg принимает. Обычный проект, такой как New year, Pandorium  и другие можно писать в штмл документе данном реактом, как в этом проекте. Для того, чтобы писать проект с запросами, ответами и т.д., как фин.проект, канбан доска, нужно писать функциями или классами, рендер, ретюрн использовать и т.д. Команда установки SASS в проект npm install sass. В этом проекте сасс можно не устанавливать. Изменить номер локахоста можно прописав в скрипте "start":"set PORT=8086 && react-scripts start", номер порта, который нужен --port 8086(работает, проверил), ещё так "start": "PORT=3006 react-scripts start" (пока не проверял). Ссылка на слайдеры, лайтбокс, css, js написания всяких интересных штук https://www.w3schools.com/howto/howto_js_slideshow.asp
-Скачать видео с ютюба на комп можно, добавив в ссылке на выбранное видео ss, exemple https://www.ssyoutube....., появляется окно где нужно скачать видос, нажимаю скачать, открывается новое окно с этим видео, нажимаю в жтом окне правую кнопку мыши, сохранить как, выбираю папку куда сохранить и сохраняю, потом вставляю это видео скомпа в <video></video>. Вставить видео с компа в ифрейм можно, с ифрейма в видео нет, не воспроизводит. Если видео нужно воспроизводить маузмув, то лучше видос скачать на комп и вставить его в видео. В ФАЙЛАХ ЦСС СКОМПРЕССОВАННЫХ В ПРОГРАММЕ КОМПРЕСС ЦСС ЗАМЕТКИ, КОТОРЫЕ Я ДЕЛАЮ НЕ ОСТАЮТСЯ - СТИРАЮТСЯ, НУЖНО ЗАПИСЫВАТЬ В СТАЙЛЕСЕ.ЦСС И ЗАЛПОМ НЕ КОПИРОВАТЬ КОД ИЗ АПП.ЦСС В СТАЙЛЕС.ЦСС. SVG можно скачать с https://freesvg.org/vector-drawing-of-atomic-badge-set-in-gold ,сохраняем в папку проекта. Сгенерированные svg https://realfavicongenerator.net/svg-favicon/ ,сохраняем в папку, свдж генерируется и в png, лучше ставить в хэд, в линке пнж, сделав ему прозрачный задний фон https://retoucher.online/ru/upload  или оставить фон, смотря какое свж, прописываем нужный путь. Перевести svg в png можно, чтобы сделать прозрачный фон, у svg задать фон и бордер можно в программе генерации в фавикон-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,7 +23,7 @@
         <div class="header__menu-content">
           <div class="header-continer_menu">
           <div class="header-logo">
-            <img class="img_tassel" src="images/Vector.png" alt="tassel">
+            <img class="img_tassel" src="public/images/Vector.png" alt="tassel">
             <article class="header__logo-text">
               <p class="header__logo-text_p">СИТИ</p>
               <p class="header__logo-text_p" style="margin-top: -3px;">ПРО</p>
@@ -42,7 +39,7 @@
             </ul>
           </nav>
           <div class="header-telephon">
-            <img class="elem pipe-phone"src="images/Group 655.png" style="padding-right: 10px;" alt="pipe phon">
+            <img class="elem pipe-phone"src="public/images/Group 655.png" style="padding-right: 10px;" alt="pipe phon">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
          </div>
@@ -64,12 +61,12 @@
             </div>
           </div>
         <figure class="header_filter_big-photo">
-          <img class="big-photo" src="images/Layer-4-1.png" alt="dyer">
+          <img class="big-photo" src="public/images/Layer-4-1.png" alt="dyer">
         </figure>
       </div>
       </div>
       <figure class="filter__header-restangle_bottom">
-        <img class="header-restangle_bottom"src="images/Rectangle 688.png" alt="restangle">
+        <img class="header-restangle_bottom"src="public/images/Rectangle 688.png" alt="restangle">
         <figcaption style="display:none;">Restangle</figcaption>
       </figure>
     </header>
@@ -89,7 +86,7 @@
            </article>
           </div>
           <figure class="filter_img-workers">
-            <img class="img-workers" src="images/Rectangle 39.png" alt="workers">
+            <img class="img-workers" src="public/images/Rectangle 39.png" alt="workers">
             <figcaption style="display:none">workers</figcaption>
           </figure>
         </div>  
@@ -100,19 +97,19 @@
         <div class="advantages-continer__content">
           <figure class="filter-svg">
            <div class="gr1">
-            <img class="svg" src="images/Vector-1.png" alt="bird">
+            <img class="svg" src="public/images/Vector-1.png" alt="bird">
             <p class="elem4">Гарантия на все виды работ</p>
            </div>
            <div class="gr2">
-            <img class="svg" src="images/Vector.svg" alt="like">
+            <img class="svg" src="public/images/Vector.svg" alt="like">
             <p class="elem4">В работе используются материалы от ведущих европейских производителей</p>
            </div>
            <div class="gr3">
-            <img class="svg" src="images/Vector-3.png" alt="people">
+            <img class="svg" src="public/images/Vector-3.png" alt="people">
             <p class="elem4">Высококвалифицированный персонал</p>
            </div>
            <div class="gr4">
-            <img class="svg" src="images/Vector-Stroke.png" alt="z">
+            <img class="svg" src="public/images/Vector-Stroke.png" alt="z">
             <p class="elem4">Своя лаборатория цветоподбора</p>
            </div>
             <figcaption style="display:none">svg</figcaption>
@@ -127,35 +124,35 @@
           <div class="services-photo">
             <figure class="filter__services-photo__img"> 
               <div class="photo-text">
-                <img class="img-hair-dryer" src="images/hair-dryer.png" alt="hair dryer">
+                <img class="img-hair-dryer" src="public/images/hair-dryer.png" alt="hair dryer">
                 <p class="photo-paragraph">Реставрация лакокрасочного покрытия</p>
-                <img class="photo-icon"src="images/Icons.png" alt="bird">
+                <img class="photo-icon"src="public/images/Icons.png" alt="bird">
               </div>
-              <img class="services-photo__img" src="images/Reustaling.png" alt="image">
+              <img class="services-photo__img" src="public/images/Reustaling.png" alt="image">
             </figure>
              <figure class="filter__services-photo__img"> 
               <div class="photo-text" style="left: 20px">
-                <img class="img-hair-dryer" src="images/brush.png" alt="brush">
+                <img class="img-hair-dryer" src="public/images/brush.png" alt="brush">
                 <p class="photo-paragraph" style="width: 193px;">Профессиональная окраска на объекте</p>
-                <img class="photo-icon"src="images/Icons.png" alt="bird">
+                <img class="photo-icon"src="public/images/Icons.png" alt="bird">
               </div>
-              <img class="services-photo__img" src="images/Color.png" alt="image">
+              <img class="services-photo__img" src="public/images/Color.png" alt="image">
             </figure>
              <figure class="filter__services-photo__img"> 
               <div class="photo-text" style="left: 23px;">
-                <img class="img-hair-dryer" src="images/houses.png" alt="brush">
+                <img class="img-hair-dryer" src="public/images/houses.png" alt="brush">
                 <p class="photo-paragraph" style="width:188px">Профессиональная окраска экстерьера</p>
-                <img class="photo-icon"src="images/Icons.png" alt="bird">
+                <img class="photo-icon"src="public/images/Icons.png" alt="bird">
               </div>
-              <img class="services-photo__img" src="images/Color2.png" alt="image">
+              <img class="services-photo__img" src="public/images/Color2.png" alt="image">
             </figure>
              <figure class="filter__services-photo__img"> 
               <div class="photo-text" style="left: 20px;">
-                <img class="img-hair-dryer" src="images/gate.png" alt="brush">
+                <img class="img-hair-dryer" src="public/images/gate.png" alt="brush">
                 <p class="photo-paragraph" style="width: 202px;">Профессиональная окраска ограждений и витражей</p>
-                <img class="photo-icon"src="images/Icons.png" alt="bird">
+                <img class="photo-icon"src="public/images/Icons.png" alt="bird">
               </div>
-              <img class="services-photo__img" src="images/Color3.png" alt="image">
+              <img class="services-photo__img" src="public/images/Color3.png" alt="image">
             </figure>
           </div>
         </div>
@@ -164,9 +161,9 @@
     <section class="block-confidence">
       <h2 class="block-confidence__title">Нам доверяют</h2>
       <picture class="three-logo">
-         <img class="three-logo__img" src="images/Group 37.png" alt="houses">
-         <img class="three-logo__img" src="images/Group 36.png" alt="traylway">
-         <img class="three-logo__img" src="images/Group 35.png" alt="fodd">
+         <img class="three-logo__img" src="public/images/Group 37.png" alt="houses">
+         <img class="three-logo__img" src="public/images/Group 36.png" alt="traylway">
+         <img class="three-logo__img" src="public/images/Group 35.png" alt="fodd">
       </picture>
     </section>
     <section class="portfolio" id="portfolio">
@@ -183,21 +180,21 @@
             </article>
             <div class="slider-content">
               <figure class="filter__img-arrowLeft">
-                <img class="img-arrowLeft" src="images/arrow-left.png" alt="arrow left">
+                <img class="img-arrowLeft" src="public/images/arrow-left.png" alt="arrow left">
                 <figcaption style="display:none">arrow left</figcaption>
               </figure>
               <figure class="filter__img-numbers">
-                 <img class="img-numbers" src="images/3.png" alt="numbers">
+                 <img class="img-numbers" src="public/images/3.png" alt="numbers">
                  <figcaption style="display:none">numbers slash</figcaption>
               </figure>
               <figure class="filter__img-arrowRight">
-                 <img class="img-arrowRight" src="images/arrow-right.png" alt="arrow right">
+                 <img class="img-arrowRight" src="public/images/arrow-right.png" alt="arrow right">
                  <figcaption style="display:none">arrow right</figcaption>
               </figure>
             </div>
           </article>
           <picture class="filter__img-building">
-            <img class="img-building" src="images/image 5.png" alt="building">
+            <img class="img-building" src="public/images/image 5.png" alt="building">
           </picture>
         </div>
       </div>
@@ -239,36 +236,36 @@
           <article class="continer__content-common">
             <h2 class="contacts-continer__content-title">Контакты</h2>
             <div class="location">
-              <img class="img-contacts" src="images/location.png" alt="location">
+              <img class="img-contacts" src="public/images/location.png" alt="location">
               <article class="location-subtitle">
                 <h5 class="city">г. Москва</h5>
                 <p class="street">ул. Московская д.0</p>
               </article>
             </div>
             <div class="location">
-              <img class="img-contacts" src="images/phone.png" alt="phone">
+              <img class="img-contacts" src="public/images/phone.png" alt="phone">
               <article class="location-subtitle">
                 <h5 class="city">+7 900 000 00 00</h5>
                 <p class="street">заказать звонок</p>
               </article>
             </div>
              <div class="location">
-              <img class="img-contacts" src="images/clock.png" alt="clock">
+              <img class="img-contacts" src="public/images/clock.png" alt="clock">
               <article class="location-subtitle">
                 <h5 class="city">Пн-Вс 9:00-20:00</h5>
                 <p class="street">без выходных</p>
               </article>
             </div>
             <figure class="icons">
-              <img class="img-icons" src="images/vk.png" alt="vk">
-              <img class="img-icons"src="images/telega.png" alt="telega">
-              <img class="img-icons" src="images/Subtract.png" alt="sub">
-              <img class="img-icons" src="images/Subtract.png" alt="sub">
+              <img class="img-icons" src="public/images/vk.png" alt="vk">
+              <img class="img-icons"src="public/images/telega.png" alt="telega">
+              <img class="img-icons" src="public/images/Subtract.png" alt="sub">
+              <img class="img-icons" src="public/images/Subtract.png" alt="sub">
             </figure>
             <h4 class="politika">Политика конфиденциальности</h4>
           </article>
           <figure class="filter_img-map">
-            <img class="img-map"src="images/map.png">
+            <img class="img-map"src="public/images/map.png">
           </figure>
         </div>
       </div>
@@ -279,7 +276,7 @@
         <div class="date-continer__content">
           <div class="date-continer__content-common">
             <article class="title">
-              <img class="img-big_brash" src="images/big-brush.png">
+              <img class="img-big_brash" src="public/images/big-brush.png">
               <article class="titleTwo">
                 <h1 class="date-title">СИТИ</h1>
                 <h1 class="date-title" style="margin-top: -16px;">ПРО</h1>
@@ -299,42 +296,40 @@
             <h5 class="date-h5">Политика конфиденциальности</h5>
             <article class="maxocom">
               <h4 class="date-h4Two">Разработано</h4>
-              <img class="img-maxocom" src="images/maxocom.png">
+              <img class="img-maxocom" src="public/images/maxocom.png">
             </article>
           </article>
            <article class="date-continer__content-common2">
             <div class="location">
-              <img class="img-contacts" src="images/location.png" alt="location">
+              <img class="img-contacts" src="public/images/location.png" alt="location">
               <article class="location-subtitle">
                 <h5 class="city">г. Москва</h5>
                 <p class="street">ул. Московская д.0</p>
               </article>
             </div>
             <div class="location">
-              <img class="img-contacts" src="images/phone.png" alt="phone">
+              <img class="img-contacts" src="public/images/phone.png" alt="phone">
               <article class="location-subtitle">
                 <h5 class="city">+7 900 000 00 00</h5>
                 <p class="street">заказать звонок</p>
               </article>
             </div>
              <div class="location">
-              <img class="img-contacts" src="images/clock.png" alt="clock">
+              <img class="img-contacts" src="public/images/clock.png" alt="clock">
               <article class="location-subtitle">
                 <h5 class="city">Пн-Вс 9:00-20:00</h5>
                 <p class="street">без выходных</p>
               </article>
             </div>
             <figure class="icons">
-              <img class="img-icons" src="images/vk.png" alt="vk">
-              <img class="img-icons"src="images/telega.png" alt="telega">
-              <img class="img-icons" src="images/Subtract.png" alt="sub">
-              <img class="img-icons" src="images/Subtract.png" alt="sub">
+              <img class="img-icons" src="public/images/vk.png" alt="vk">
+              <img class="img-icons"src="public/images/telega.png" alt="telega">
+              <img class="img-icons" src="public/images/Subtract.png" alt="sub">
+              <img class="img-icons" src="public/images/Subtract.png" alt="sub">
             </figure>
           </article>
         </div>
       </div>
-     <noscript>
-     <script type="text/javascript"></script></noscript>
    </footer>
   </body>
 </html>
