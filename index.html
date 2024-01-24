@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" media="screen and (max-width: 1300px)" href="src/App.css">
-   <script type="text/javascript">alert("Сайт не адаптирован под планшетную и мобильную версии. The site is not adapted for tablet and mobile versions 😁");</script>
+   <!--<script type="text/javascript">alert("Сайт не адаптирован под планшетную и мобильную версии. The site is not adapted for tablet and mobile versions 😁");</script>-->
     <title>City Pro</title>
     <!--<title>Смена картинок</title>-->
   </head>
@@ -29,7 +29,8 @@
     </div>-->
       <div id="overlay" onclick="off()">
        <!--<div id="text">Overlay Text</div>-->
-        <img id="text"src="public/images/Group-666.png">
+        <img id="img-overlay"src="public/images/Group-666.png">
+        <img id="img-overlay-mob"src="public/images/popup-1.png">
          <!--<div class="continer form-continer">
         <div class="form-continer__content">
           <h2 class="form-title">Оставьте заявку</h2>
@@ -89,6 +90,9 @@
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
+          <figure class="gamburger">
+            <img src="public/images/gamburger.svg">
+          </figure>
          </div>
         </div>
         <!--<div class="header-continer__common">-->
@@ -132,7 +136,7 @@
             </div>
           </div>
         <figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-4-1.png" style="width: 505px; height: 480px;"alt="dyer">
+          <img class="big-photo" src="public/images/Layer-4-1.png"alt="dyer"><!-- style="width: 505px; height: 480px;"-->
         </figure>
 </div>
 </div>
@@ -160,6 +164,9 @@
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
+           <figure class="gamburger">
+            <img src="public/images/gamburger.svg">
+          </figure>
          </div>
         </div>
         <!--<div class="header-continer__common">-->
@@ -203,7 +210,7 @@
             </div>
           </div>
        <figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-2-1.png" style="width:480px; height: 480px;" alt="dyer">
+          <img class="big-photo" src="public/images/Layer-2-1.png"  alt="dyer"><!--style="width:480px; height: 480px;"-->
         </figure>
 </div>        
 </div>
@@ -231,6 +238,9 @@
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
+           <figure class="gamburger">
+            <img src="public/images/gamburger.svg">
+          </figure>
          </div>
         </div>
         <!--<div class="header-continer__common">-->
@@ -274,7 +284,7 @@
             </div>
           </div>
      <figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-1-copy-1.png" style="width: 465px; height: 480px;" alt="dyer">
+          <img class="big-photo" src="public/images/Layer-1-copy-1.png"  alt="dyer"><!--style="width: 465px; height: 480px;"-->
         </figure>
 </div>
 </div>
@@ -305,15 +315,21 @@
         <div class="section-continer__content">  
            <div class="continer-articles">
             <h2 class="aboutUse__main-text">О нас</h2>
+             <figure class="filter_img-workers-2">
+            <img class="img-workers" src="public/images/Rectangle-39-1.png" alt="workers">
+            <figcaption style="display:none">workers</figcaption>
+          </figure>
             <article class="aboutUse-text">
               <h3 class="aboutUse-text__subtitle">Сплочённость команды профессионалов позволила расправить крылья</h3>
               <article class="paragraphs">
                 <p class="elem3" style="width: 492px;">Противоположная точка зрения подразумевает, что интерактивные прототипы, инициированные исключительно синтетически, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
+                <p class="elem3-mob" style="width: 492p;">Противоположная точка зрения подразумевает, что интерактивные прототипы, инициированные исключительно синтетически, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
                 <p class="elem3" style="width: 510px;">В частности, перспективное планирование предопределяет высокую востребованность инновационных методов управления процессами.</p>
                 <p class="elem3" style="width: 523px;">А ещё ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть подвергнуты целой серии независимых исследований.</p>
               </article>
            </article>
           </div>
+           <img class="button-scroll"src="public/images/errow-bottom.png" alt="">
           <figure class="filter_img-workers">
             <img class="img-workers" src="public/images/Rectangle-39-1.png" alt="workers">
             <figcaption style="display:none">workers</figcaption>
@@ -322,7 +338,7 @@
       </div>
     </section>
     <section class="advantages" id="advantages">
-      <div class="advantages-continer">
+      <div class="continer advantages-continer">
         <div class="advantages-continer__content">
           <figure class="filter-svg">
            <div class="gr1">
@@ -390,8 +406,105 @@
             </figure>-->
           </div>
         </div>
-      </div>
-    </section>
+        <div class="slider_demonstration-services">
+         <div class="slider-wrapper-services">
+           <div class="slideshow-container-services">
+            <div class="mySlidesss">  
+             <div class="services-continer__common__text-button">
+              <h2 class="title_services">Виды услуг</h2>
+                <figure class="filter-groups">
+                  <img class="group1-services" src="public/images/Group-656.png" style="cursor: pointer;" onclick="changeeeee()" alt="dyer">
+                </figure><!---services-->
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">01</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">04</number>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="mySlidesss">  
+             <div class="services-continer__common__text-button">
+              <h2 class="title_services">Виды услуг</h2>
+                <figure class="filter-groups">
+                  <img class="group2-services" src="public/images/Group-657.png" style="cursor: pointer;" onclick="changeeeeee()" alt="dyer">
+                </figure>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">02</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">04</number>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="mySlidesss">  
+             <div class="services-continer__common__text-button">
+              <h2 class="title_services">Виды услуг</h2>
+                <figure class="filter-groups">
+                  <img class="group3-services" src="public/images/Group-658.png" style="cursor: pointer;" onclick="changeeeeeee()" alt="dyer">
+                </figure>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">03</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">04</number>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="mySlidesss">  
+             <div class="services-continer__common__text-button">
+              <h2 class="title_services">Виды услуг</h2>
+                <figure class="filter-groups">
+                  <img class="group4-services" src="public/images/Group-659.png" style="cursor: pointer;" onclick="changeeeeeeee()" alt="dyer">
+                </figure>
+              <div class="services__button-common">
+              <!--<button class="header-button">Получить консультацию</button>-->
+              <div class="restangles-continer-services">
+                <number class="zOne">04</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">04</number>
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="block-btn-services-continer">
+ <!--<div class="btn btn-prev-adventages"> 
+    <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
+ </div>-->
+ <div class="block-dott-services">
+  <div class="dott" onclick="currentssSlideee(1)"></div> 
+  <div class="dott" onclick="currentssSlideee(2)"></div> 
+  <div class="dott" onclick="currentssSlideee(3)"></div>
+  <div class="dott" onclick="currentssSlideee(4)"></div>
+</div>
+ <!--<div class="btn btn-next-adventages">
+    <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
+ </div>-->
+ </div>
+</div>
+</div>
+</div>
+</div>
+</section>
     <section class="block-confidence">
       <div class="continer block-confidence-continer"> 
       <div class="block-confidence-continer__content">   
@@ -407,22 +520,116 @@
     <section class="portfolio" id="portfolio">
       <div class="continer portfolio-continer">
         <div class="portfolio-continer__content">
-
-          <div class="slider_demonstration">
-
-<div class="slider-wrapper">
-<div class="slideshow-container">
-
-<div class="mySlides">  
-<article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
+         <div class="slider_demonstration-portfolio-tablet">
+         <div class="slider-wrapper-portfolio-tablet">
+           <div class="slideshow-container-portfolio-tablet">
+            <div class="mySlidessss">  
+             <div class="portfolio-tablet-continer__common__text-button">
+              <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <picture class="filter__img-building">
+               <img class="img-building" src="public/images/image 5.png" alt="building"></picture>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">01</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">03</number>
+              </div>
+            </div>
+             <article class="portfolio-subtitle">
                <h3 class="subtitle_portfolio">Kazakov Grand Loft</h3>
                <article class="portfolio-paragrafs">
                  <p class="paragraf_portfolio">Kazakov Grand Loft — новый проект в исторической части Москвы, дом для тех, кто не идет на компромиссы. Все, на что город будет равняться в обозримой перспективе, находится здесь. И в центре этого мира вы. Индивидуальность даже в мелочах и комфорт, возведенный в абсолют — чем не рецепт совершенства?</p>
                  <p class="paragraf_portfolio">Проект прогрессивной авторской архитектуры, умного наполнения и персональных панорамных видов на город. Здесь созданы условия премиального сервиса, чтобы вы не отвлекались на бытовые мелочи, а просто наслаждались жизнью.</p>
                </article>
             </article>
+          </div>
+        </div>
+        <div class="mySlidessss">  
+             <div class="portfolio-tablet-continer__common__text-button">
+              <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <picture class="filter__img-building">
+               <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">02</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">03</number>
+              </div>
+            </div>
+             <article class="portfolio-subtitle">
+               <h3 class="subtitle_portfolio">Новое здание Третьяковской галереи</h3>
+               <article class="portfolio-paragrafs">
+                 <p class="paragraf_portfolio">Третьяковская галерея на Кадашёвской набережной — строящийся новый корпус Третьяковской галереи, расположенный на Кадашёвской набережной, 10 — рядом с историческими зданиями музея в Лаврушинском переулке.</p>
+                 <p class="paragraf_portfolio">Новый музейный корпус спроектирован «Моспроектом-4» и дополнен конкурсным проектом фасадов от архитектурного бюро SPEECH.</p>
+                  <p class="paragraf_portfolio">Строительство началось летом 2014 года, завершение работ запланировано на 2024 год.</p>
+               </article>
+            </article>
+          </div>
+        </div>
+         <div class="mySlidessss">  
+             <div class="portfolio-tablet-continer__common__text-button">
+              <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <picture class="filter__img-building">
+               <img class="img-building" src="public/images/image 7.png" alt="building"></picture>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">03</number>
+                <!--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>-->
+                <number class="zThree">03</number>
+              </div>
+            </div>
+             <article class="portfolio-subtitle">
+               <h3 class="subtitle_portfolio">ТРЦ Павелецкая Плаза</h3>
+               <article class="portfolio-paragrafs">
+                 <p class="paragraf_portfolio">ТРЦ «Павелецкая Плаза» расположится в историческом центре Москвы, на первой линии Садового кольца, на площади перед Павелецким вокзалом. Торговый центр будет соединен подземным переходом через Садовое кольцо с радиальной станцией метро «Павелецкая», а также одноименным ТПУ, который свяжет транспортные артерии города с аэропортом «Домодедово».</p>
+                 <p class="paragraf_portfolio">Ежедневный пассажиропоток через станции метро и наземный транспорт составляет около 300 тыс. человек. В зоне охвата торгового центра живут и работают более 3 млн человек.</p>
+               </article>
+            </article>
+          </div>
+        </div>
+<div class="block-btn-portfolio-tablet-continer">
+ <!--<div class="btn btn-prev-adventages"> 
+    <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
+ </div>-->
+ <div class="block-dottt-portfolio-tablet">
+  <div class="dottt" onclick="currentsssSlideeee(1)"></div> 
+  <div class="dottt" onclick="currentsssSlideeee(2)"></div> 
+  <div class="dottt" onclick="currentsssSlideeee(3)"></div>
+</div>
+ <!--<div class="btn btn-next-adventages">
+    <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
+ </div>-->
+ </div>
+</div>
+ <img class="button-scroll-portfolio"src="public/images/errow-bottom.png" alt="">
+</div>
+</div>
+
+          <div class="slider_demonstration">
+           <div class="slider-wrapper">
+            <div class="slideshow-container">
+             <div class="mySlides">  
+              <article class="portfolio-title">
+               <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <article class="portfolio-subtitle">
+                 <h3 class="subtitle_portfolio">Kazakov Grand Loft</h3>
+                 <article class="portfolio-paragrafs">
+                  <p class="paragraf_portfolio">Kazakov Grand Loft — новый проект в исторической части Москвы, дом для тех, кто не идет на компромиссы. Все, на что город будет равняться в обозримой перспективе, находится здесь. И в центре этого мира вы. Индивидуальность даже в мелочах и комфорт, возведенный в абсолют — чем не рецепт совершенства?</p>
+                  <p class="paragraf_portfolio">Проект прогрессивной авторской архитектуры, умного наполнения и персональных панорамных видов на город. Здесь созданы условия премиального сервиса, чтобы вы не отвлекались на бытовые мелочи, а просто наслаждались жизнью.</p>
+                 </article>
+                </article>
            <!-- <div class="slider-content">-->
               <figure class="filter__img-numbers">
                  <img class="img-numbers" src="public/images/3.png" alt="numbers">
@@ -671,344 +878,98 @@
 
 
 
-<!--<div class="slider_demonstration-header">
-
-<div class="slider-wrapper-header-1">
-<div class="slideshow-container-header">
-
-<div class="mySlidess">  
-<div class="header-continer__common__text-button">
-            <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
-            <div class="header__button-common">
-              <button class="header-button">Получить консультацию</button>
-              <div class="restangles-contine">
+ <!--<div class="slider_demonstration-portfolio-tablet">
+         <div class="slider-wrapper-portfolio-tablet">
+           <div class="slideshow-container-portfolio-tablet">
+            <div class="mySlidessss">  
+             <div class="portfolio-tablet-continer__common__text-button">
+              <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <picture class="filter__img-building">
+               <img class="img-building" src="public/images/image 5.png" alt="building"></picture>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
                 <number class="zOne">01</number>
-                <div class="restangles">
+                !--<div class="restangles">
                   <figure class="elem2 restanglOne"></figure>
                   <figure class="elem2 restanglTwo"></figure>
                   <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>
+                </div>--
                 <number class="zThree">03</number>
               </div>
             </div>
-          </div>
- <figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-4-1.png" alt="dyer">
-        </figure>
-</div>
-
-<div class="mySlidess">
-<article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
-               <h3 class="subtitle_portfolio">Новое здание Третьяковской галереи</h3>
-               <article class="portfolio-paragrafs">
-                 <p class="paragraf_portfolio">Третьяковская галерея на Кадашёвской набережной — строящийся новый корпус Третьяковской галереи, расположенный на Кадашёвской набережной, 10 — рядом с историческими зданиями музея в Лаврушинском переулке.</p>
-                 <p class="paragraf_portfolio">Новый музейный корпус спроектирован «Моспроектом-4» и дополнен конкурсным проектом фасадов от архитектурного бюро SPEECH.</p>
-                 <p class="paragraf_portfolio">Строительство началось летом 2014 года, завершение работ запланировано на 2024 год.</p>
-               </article>
-            </article>
-          </article>  
-<picture class="filter__img-building">
-  <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
-</div>
-
-<div class="mySlidess">
-  <article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
-               <h3 class="subtitle_portfolio">ТРЦ Павелецкая Плаза</h3>
-               <article class="portfolio-paragrafs">
-                 <p class="paragraf_portfolio">ТРЦ «Павелецкая Плаза» расположится в историческом центре Москвы, на первой линии Садового кольца, на площади перед Павелецким вокзалом. Торговый центр будет соединен подземным переходом через Садовое кольцо с радиальной станцией метро «Павелецкая», а также одноименным ТПУ, который свяжет транспортные артерии города с аэропортом «Домодедово».</p>
-                 <p class="paragraf_portfolio">Ежедневный пассажиропоток через станции метро и наземный транспорт составляет около 300 тыс. человек. В зоне охвата торгового центра живут и работают более 3 млн человек.</p>
-               </article>
-            </article>
-          </article>
-<picture class="filter__img-building">
-  <img class="img-building" src="public/images/image 7.png" alt="building"></picture>
-</div>
-<div class="block-btn-header">
- <div class="btn btn-prev-header"> 
-    <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
- </div>
-  <div class="dot" onclick="currentsSlidee(1)"></div> 
-  <div class="dot" onclick="currentsSlidee(2)"></div> 
-  <div class="dot" onclick="currentsSlidee(3)"></div>
- <div class="btn btn-next-header">
-    <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
- </div>
- </div>
-</div>
-</div>
-</div>
-<script>
-let slideeIndex = 1;
-        
-function positionsSlidess(n) {
-  showsSlidess(slideeIndex += n);
-} 
-
-function currentsSlidee(n) {
-  showsSlidess(slideeIndex = n);
-}
-
-function showsSlidess(n) {
-  let slidess = document.getElementsByClassName("mySlidess");
-  let dots = document.getElementsByClassName("dot");  
-  if (n > slidess.length) {slideeIndex = 1}    
-  if (n < 1) {slideeIndex = slidess.length}
-for (let i = 0; i < slidess.length; i++) {
-  slidess[i].style.display = "none";
-}
-for (let i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace(" active", "");
-}
-  slidess[slideeIndex -1].style.display = "flex";//"block"  
-  dots[slideeIndex -1].className += " active";
-}
-
-showsSlidess(slideeIndex);
-
-const btnPrevv = document.querySelector(".btn-prev-header");
-const btnNextt = document.querySelector(".btn-next-header");
-
-btnPrevv.addEventListener("click", () => {positionsSlidess(-1);});
-btnNextt.addEventListener("click", () => {positionsSlidess(1);});
-</script>-->
-
-<!--<section class="slider_demonstration">
-
-<div class="slider-wrapper">
-<div class="slideshow-container">
-
-<div class="mySlides">  
-<article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
+             <article class="portfolio-subtitle">
                <h3 class="subtitle_portfolio">Kazakov Grand Loft</h3>
                <article class="portfolio-paragrafs">
                  <p class="paragraf_portfolio">Kazakov Grand Loft — новый проект в исторической части Москвы, дом для тех, кто не идет на компромиссы. Все, на что город будет равняться в обозримой перспективе, находится здесь. И в центре этого мира вы. Индивидуальность даже в мелочах и комфорт, возведенный в абсолют — чем не рецепт совершенства?</p>
                  <p class="paragraf_portfolio">Проект прогрессивной авторской архитектуры, умного наполнения и персональных панорамных видов на город. Здесь созданы условия премиального сервиса, чтобы вы не отвлекались на бытовые мелочи, а просто наслаждались жизнью.</p>
                </article>
             </article>
-            <div class="slider-content">
-              <figure class="filter__img-numbers">
-                 <img class="img-numbers" src="public/images/3.png" alt="numbers">
-                 <figcaption style="display:none">numbers slash</figcaption>
-              </figure>
+          </div>
+        </div>
+        <div class="mySlidessss">  
+             <div class="portfolio-tablet-continer__common__text-button">
+               <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                <picture class="filter__img-building">
+               <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
+              <div class="services__button-common">
+              <div class="restangles-continer-services">
+                <number class="zOne">02</number>
+                !--<div class="restangles">
+                  <figure class="elem2 restanglOne"></figure>
+                  <figure class="elem2 restanglTwo"></figure>
+                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                </div>--
+                <number class="zThree">03</number>
+              </div>
             </div>
-          </article>
-<picture class="filter__img-building">
-  <img class="img-building" src="public/images/image 5.png" alt="building"></picture>
-</div>
-
-<div class="mySlides">
-<article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
-               <h3 class="subtitle_portfolio">Новое здание Третьяковской галереи</h3>
-               <article class="portfolio-paragrafs">
-                 <p class="paragraf_portfolio">Третьяковская галерея на Кадашёвской набережной — строящийся новый корпус Третьяковской галереи, расположенный на Кадашёвской набережной, 10 — рядом с историческими зданиями музея в Лаврушинском переулке.</p>
-                 <p class="paragraf_portfolio">Новый музейный корпус спроектирован «Моспроектом-4» и дополнен конкурсным проектом фасадов от архитектурного бюро SPEECH.</p>
-                 <p class="paragraf_portfolio">Строительство началось летом 2014 года, завершение работ запланировано на 2024 год.</p>
-               </article>
-            </article>
-            <div class="slider-content" style="padding-top: 45px;">
-             <figure class="filter__img-numbers">
-              <img class="img-numbers" src="public/images/2/2-3.png" alt="numbers">
-             <figcaption style="display:none">numbers slash</figcaption>
-              </figure>
-            </div>
-          </article>  
-<picture class="filter__img-building">
-  <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
-</div>
-
-<div class="mySlides">
-  <article class="portfolio-title">
-            <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-            <article class="portfolio-subtitle">
-               <h3 class="subtitle_portfolio">ТРЦ Павелецкая Плаза</h3>
-               <article class="portfolio-paragrafs">
-                 <p class="paragraf_portfolio">ТРЦ «Павелецкая Плаза» расположится в историческом центре Москвы, на первой линии Садового кольца, на площади перед Павелецким вокзалом. Торговый центр будет соединен подземным переходом через Садовое кольцо с радиальной станцией метро «Павелецкая», а также одноименным ТПУ, который свяжет транспортные артерии города с аэропортом «Домодедово».</p>
-                 <p class="paragraf_portfolio">Ежедневный пассажиропоток через станции метро и наземный транспорт составляет около 300 тыс. человек. В зоне охвата торгового центра живут и работают более 3 млн человек.</p>
-               </article>
-            </article>
-            <div class="slider-content">
-              <figure class="filter__img-numbers">
-                 <img class="img-numbers" src="public/images/3/3-3.png" alt="numbers">
-                 <figcaption style="display:none">numbers slash</figcaption>
-              </figure>
-            </div>
-          </article>
-<picture class="filter__img-building">
-  <img class="img-building" src="public/images/image 7.png" alt="building"></picture>
-</div>
-<div class="block-btn">
- <div class="btn btn-prev" style="cursor: pointer;"> 
+          </div>
+        </div>
+<div class="block-btn-portfolio-tablet-continer">
+ !--<div class="btn btn-prev-adventages"> 
     <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
- </div>
- <div class="btn btn-next" style="cursor: pointer;">
+ </div>--
+ <div class="block-dottt-portfolio-tablet">
+  <div class="dottt" onclick="currentsssSlideeee(1)"></div> 
+  <div class="dottt" onclick="currentsssSlideeee(2)"></div> 
+  <div class="dottt" onclick="currentsssSlideeee(3)"></div>
+</div>
+ !--<div class="btn btn-next-adventages">
     <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
+ </div>--
  </div>
- </div>
-  <div class="dot" onclick="currentSlide(1)"></div> 
-  <div class="dot" onclick="currentSlide(2)"></div> 
-  <div class="dot" onclick="currentSlide(3)"></div>
 </div>
 </div>
-</section>
-
-
+</div>
 <script>
-
-let slideIndex = 1;
-        
-function positionSlides(n) {
-  showSlides(slideIndex += n);
+let slideeeeIndex = 1;
+function positionsssSlidessss(n) {
+  showsssSlidessss(slideeeeIndex += n);
 } 
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentsssSlideeee(n) {
+  showsssSlidessss(slideeeeIndex = n);
 }
 
-function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");  
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-for (let i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none";  
+function showsssSlidessss(n) {
+  let slidessss = document.getElementsByClassName("mySlidessss");
+  let dotsss = document.getElementsByClassName("dottt");  
+  if (n > slidessss.length) {slideeeeIndex = 1}    
+  if (n < 1) {slideeeeIndex = slidessss.length}
+for (let i = 0; i < slidessss.length; i++) {
+  slidessss[i].style.display = "none";  
 }
-for (let i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace(" active", "");
+for (let i = 0; i < dotsss.length; i++) {
+  dotsss[i].className = dotsss[i].className.replace(" active", "");
 }
-  slides[slideIndex-1].style.display = "flex";//block
-  dots[slideIndex-1].className += " active";
+  slidessss[slideeeeIndex-1].style.display = "flex";//block
+  dotsss[slideeeeIndex-1].className += " active";
 }
 
-showSlides(slideIndex);
+showsssSlidessss(slideeeeIndex);
 
-const btnPrev = document.querySelector(".btn-prev");
+/*const btnPrev = document.querySelector(".btn-prev");
 const btnNext = document.querySelector(".btn-next");
 
 btnPrev.addEventListener("click", () => {positionSlides(-1);});
-btnNext.addEventListener("click", () => {positionSlides(1);});
-
+btnNext.addEventListener("click", () => {positionSlides(1);});*/
 </script>-->
-
-
-
-<!--<section class="slider_demonstration">
-
-<div class="slider-wrapper">
-<div class="slideshow-container">
-
-<div class="mySlides">  
-<div class="numbertext">1 / 3</div>
-<div class="filter_img">
-<img class="img"src="images/image 2.1.png" alt="Комната">
-</div>
-<article class="slide-text"><span class="span">Rostov-on-Don, Admiral</span></article>
-<p class="mini-text1-slide"><span class="span">Rostov-on-Don LCD admiral</span></p>
-<p class="mini-text2-slide"><span class="span">3.5 months</span></p> 
-<p class="mini-text3-slide"><span class="span">81 m2</span></p>
-<div class="line"></div>
-</div>
-
-<div class="mySlides">  
-<div class="numbertext">2 / 3</div>
-<div class="filter_img">
-<img class="img"src="images/image 2.png" alt="Комната">
-</div>
-<article class="slide-text" style="width: 104px; left: 269px;">Sochi Thieves</article>
-<p class="mini-text1-slide" style="width: 90px; right: 1041px;"><span class="span">Sochi Thieves</span></p>
-<p class="mini-text2-slide"><span class="span">4 months</span></p>
-<p class="mini-text3-slide"><span class="span">105 m2</span></p>
-<div class="line" style="width: 104px; left: 269px;"></div>
-</div>
-
-<div class="mySlides">
-<div class="numbertext">3 / 3</div>
-<div class="filter_img">
-<img class="img"src="images/image 3.png" alt="Комната">
-</div>
-<article class="slide-text" style="left: 456px;"><span class="span">Rostov-on-Don Patriotic</span></article>
-<p class="mini-text1-slide"><span class="span">Rostov-on-Don Patriotic</span></p>
-<p class="mini-text2-slide"><span class="span">3 months</span></p>
-<p class="mini-text3-slide"><span class="span">93 m2</span></p>
-<div class="line" style="left: 456px;"></div>
-</div>
-
-<section class="dots-wrapper">
-<div class="btn btn-prev"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="38" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-</svg>
-</div>
-
-<div class="dot" onclick="currentSlide(1)"></div> 
-<div class="dot" onclick="currentSlide(2)"></div> 
-<div class="dot" onclick="currentSlide(3)"></div>
-
-<div class="btn btn-next"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="38" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg>
-</div>
-</section>
-</div>
-</section>
-
-<section class="container-text">
-<img class="rectangle"src="images/Rectangle 6.2.png">
-<h2 class="h2"><span class="span">COMPLETED PROJECTS</span></h2>
-<p class="text-p1"><span class="span">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</span></p>
-<div class="container-mini-text">
-<article class="mini-text-group">
-<h3 class="h3"><span class="span">City</span></h3>
-<h3 class="h3" style="position: absolute; top: 340px;"><span class="span">Repair time:</span></h3>
-</article>
-<article class="mini-text-group2">
-<h3 class="h3"><span class="span">apartment area:</span></h3>
-<h3 class="h3" style="position:absolute;top: 340px;"><span class="span">Repair Cost:</span></h3>
-<p class="mini-text-p" style="position: absolute;top: 379px;"><span class="span">Upon request</span></p>
-</article>
-</div>
-</section>
-
-<script>
-
-let slideIndex = 1;
-        
-function positionSlides(n) {
-  showSlides(slideIndex += n);
-} 
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");  
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-for (let i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none";  
-}
-for (let i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace(" active", "");
-}
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-showSlides(slideIndex);
-
-const btnPrev = document.querySelector(".btn-prev");
-const btnNext = document.querySelector(".btn-next");
-
-btnPrev.addEventListener("click", () => {positionSlides(-1);});
-btnNext.addEventListener("click", () => {positionSlides(1);});
-
-</script>
--->
