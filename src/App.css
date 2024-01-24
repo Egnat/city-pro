@@ -125,7 +125,7 @@ backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);*/
 
 slider-wrapper-header-1 {
   height: 100%;
-  background-image: url(../public/images/image-6.png);
+  background-image: url('../public/images/image-6.png');
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow:inset 1280px 771px rgb(0 0 0 / 7%);
@@ -472,7 +472,7 @@ cursor: pointer;
 
 .section-continer {
   height: 564px;
-  background-image: url(../public/images/Rectangle-55.png);/*no-repeat center center*/
+  background-image: url('../public/images/Rectangle-55.png');/*no-repeat center center*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -604,7 +604,7 @@ cursor: pointer;
 
 .services {
   height: 670px;
-  background-image: url(../public/images/Rectangle_55.png);
+  background-image: url('../public/images/Rectangle_55.png');
   background-size: cover;
   background-position: center;
   ackground-repeat: no-repeat;
@@ -748,7 +748,7 @@ cursor: pointer;
 
 .portfolio-continer {
   height: 544px;
-  background-image: url(../public/images/Rectangle-65.png);
+  background-image: url('../public/images/Rectangle-65.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -928,7 +928,7 @@ animation-duration: 0.9s;*/
 
 .form-continer {
   height: 750px;
-  background-image: url(../public/images/Rectangle-74.png);
+  background-image: url('../public/images/Rectangle-74.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1592,7 +1592,7 @@ line-height: normal;
 
 .services {
   max-width: 768px;
- background-image: url(../public/images/Restangle 691.png);
+ background-image: url('../public/images/Restangle 691.png');
   background-size: cover;
   background-position: center; 
 }
@@ -2047,7 +2047,7 @@ html {min-width: 767px;}
 
 .services {
   max-width: 767px;
- background-image: url(../public/images/Restangle 691.png);
+ background-image: url('../public/images/Restangle 691.png');
   background-size: cover;
   background-position: center; 
 }
