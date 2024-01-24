@@ -33,7 +33,7 @@ function off() {
   document.getElementById("overlay").style.display = "none";
 }
 
-//CHANGE PHOTO
+//CHANGE PHOTO SECTION SERVICES
 function change() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotoo = document.querySelector('.group1');
    newPhotoo.style.cursor = "pointer";
@@ -78,6 +78,55 @@ function changeeee() { //Смена фоток при клике. В индек�
    }
    else {
       newPhotoooo.src = "public/images/Group-659.png";
+    }
+    //alert('hi');
+};
+
+//CHANGE PHOTO SECTION SERVICES - TABLIT
+function changeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
+  let newPhotooooo = document.querySelector('.group1-services');
+   newPhotooooo.style.cursor = "pointer";
+   if (newPhotooooo.src.match("public/images/Group-656.png")) {
+      newPhotooooo.src = "public/images/change-1.png";
+   }
+   else {
+      newPhotooooo.src = "public/images/Group-656.png";
+    }
+    //alert('hi');
+};
+
+function changeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
+  let newPhotoooooo = document.querySelector('.group2-services');
+   newPhotoooooo.style.cursor = "pointer";
+   if (newPhotoooooo.src.match("public/images/Group-657.png")) {
+      newPhotoooooo.src = "public/images/change-2.png";
+   }
+   else {
+      newPhotoooooo.src = "public/images/Group-657.png";
+    }
+    //alert('hi');
+};
+
+function changeeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
+  let newPhotooooooo = document.querySelector('.group3-services');
+   newPhotooooooo.style.cursor = "pointer";
+   if (newPhotooooooo.src.match("public/images/Group-658.png")) {
+      newPhotooooooo.src = "public/images/Group-660.png";
+   }
+   else {
+      newPhotooooooo.src = "public/images/Group-658.png";
+    }
+    //alert('hi');
+};
+
+function changeeeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
+  let newPhotoooooooo = document.querySelector('.group4-services');
+   newPhotoooooooo.style.cursor = "pointer";
+   if (newPhotoooooooo.src.match("public/images/Group-659.png")) {
+      newPhotoooooooo.src = "public/images/change-4.png";
+   }
+   else {
+      newPhotoooooooo.src = "public/images/Group-659.png";
     }
     //alert('hi');
 };
@@ -149,3 +198,72 @@ const btnNextt = document.querySelector(".btn-next-header");
 
 btnPrevv.addEventListener("click", () => {positionsSlidess(-1);});
 btnNextt.addEventListener("click", () => {positionsSlidess(1);});*/
+
+//SLIDER SERVICES TABLET
+let slideeeIndex = 1;
+        
+function positionssSlidesss(n) {
+  showssSlidesss(slideeeIndex += n);
+} 
+
+function currentssSlideee(n) {
+  showssSlidesss(slideeeIndex = n);
+}
+
+function showssSlidesss(n) {
+  let slidesss = document.getElementsByClassName("mySlidesss");
+  let dotss = document.getElementsByClassName("dott");  
+  if (n > slidesss.length) {slideeeIndex = 1}    
+  if (n < 1) {slideeeIndex = slidesss.length}
+for (let i = 0; i < slidesss.length; i++) {
+  slidesss[i].style.display = "none";
+}
+for (let i = 0; i < dotss.length; i++) {
+  dotss[i].className = dotss[i].className.replace(" active", "");
+}
+  slidesss[slideeeIndex -1].style.display = "flex";//"block"  
+  dotss[slideeeIndex -1].className += " active";
+}
+
+showssSlidesss(slideeeIndex);
+
+/*const btnPrevv = document.querySelector(".btn-prev-adventages");
+const btnNextt = document.querySelector(".btn-next-adventages");
+
+btnPrevv.addEventListener("click", () => {positionssSlidesss(-1);});
+btnNextt.addEventListener("click", () => {positionssSlidesss(1);});*/
+
+//SLIDER PORTFOLIO TABLET
+let slideeeeIndex = 1;
+        
+function positionsssSlidessss(n) {
+  showsssSlidessss(slideeeeIndex += n);
+} 
+
+function currentsssSlideeee(n) {
+  showsssSlidessss(slideeeeIndex = n);
+}
+
+function showsssSlidessss(n) {
+  let slidessss = document.getElementsByClassName("mySlidessss");
+  let dotsss = document.getElementsByClassName("dottt");  
+  if (n > slidessss.length) {slideeeeIndex = 1}    
+  if (n < 1) {slideeeeIndex = slidessss.length}
+for (let i = 0; i < slidessss.length; i++) {
+  slidessss[i].style.display = "none";  
+}
+for (let i = 0; i < dotsss.length; i++) {
+  dotsss[i].className = dotsss[i].className.replace(" active", "");
+}
+  slidessss[slideeeeIndex-1].style.display = "flex";//block
+  dotsss[slideeeeIndex-1].className += " active";
+}
+
+showsssSlidessss(slideeeeIndex);
+
+/*const btnPrev = document.querySelector(".btn-prev");
+const btnNext = document.querySelector(".btn-next");
+
+btnPrev.addEventListener("click", () => {positionSlides(-1);});
+btnNext.addEventListener("click", () => {positionSlides(1);});*
+*/
