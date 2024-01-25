@@ -267,3 +267,30 @@ const btnNext = document.querySelector(".btn-next");
 btnPrev.addEventListener("click", () => {positionSlides(-1);});
 btnNext.addEventListener("click", () => {positionSlides(1);});*
 */
+
+//GAMBURGER https://www.youtube.com/watch?v=CQL8B3wRBA0
+/*$(function () {
+  $('.hamburger').click(function () {
+   $('.header-navigation-mob').toggleClass('.show-menu')
+  })
+}); */
+
+//https://www.youtube.com/watch?v=ZOa2k0jySh8&list=PLVTUJUbFu7UeD0HL7zOgkoe7fu_n0chaA&index=8
+const menuBtn = document.querySelector('.hamburger');
+const menuClose = document.querySelector('.close');
+const menuNav = document.querySelector('.header-navigation-mob');
+
+menuBtn.addEventListener('click', () => {
+ //menuNav.classList.add('.header-navigation-mob-open');это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт
+ menuNav.style.opacity = '1';//в примере был трансформ, я сделал опазити '1'
+ //menuNav.style.transformTranslateY = '(-100%)';
+});
+
+menuClose.addEventListener('click', () => {
+ //menuNav.classList.remove('.header-navigation-mob-open');это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт 
+ menuNav.style.opacity = '0';//в примере был трансформ, я сделал опазити '0'
+ //menuNav.style.transformTranslateY = '(0%)';
+});
+
+//https://www.youtube.com/watch?v=chJQofBSx94 ГАМБУРГЕР. МЕНЮ, 
+//СПРЯТАННОЕ ПОД ПЛАШКОЙ ФРИЛАНСЕР ПО ЖИЗНИ
