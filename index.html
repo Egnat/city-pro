@@ -1,3 +1,5 @@
+<!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+НЕ ЗНАЮ ПОКА ДЛЯ ЧЕГО ЭТОТ СКРИПТ, НАПИСАН У ГАВРИЛОВА В ВИДЕО ПО БУРГЕРУ-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -90,8 +92,26 @@
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
-          <figure class="gamburger">
-            <img src="public/images/gamburger.svg">
+             <nav class="header-navigation-mob"><!--header-navigation-mob-open для js-->
+                <button class="close">&times;
+              <!--<img class="close-menu" src="public/images/button-close.svg" alt="">-->
+            </button>
+            <ul class="header__list-nav-mob">
+              <li class="list-item-mob"><a class="header-link" href="#aboutUse">О нас</a></li>   
+              <li class="list-item-mob"><a class="header-link" href="#services">Виды услуг</a></li>
+              <li class="list-item-mob"><a class="header-link" href="#portfolio">Портфолио</a></li>
+              <li class="list-item-mob"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
+              <li class="list-item-mob"><a class="header-link" href="#contacts">Контакты</a></li>  
+            </ul>
+            <figure class="icons-mob">
+              <img class="img-icons" src="public/images/vk.png" alt="vk">
+              <img class="img-icons" src="public/images/telega.png" alt="telega">
+              <img class="img-icons" src="public/images/Subtract.png" alt="sub">
+              <img class="img-icons" src="public/images/Subtract-2.png" alt="sub">
+            </figure>
+          </nav>
+          <figure class="hamburger">
+            <img class="burger" src="public/images/gamburger.svg">
           </figure>
          </div>
         </div>
@@ -164,7 +184,7 @@
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
-           <figure class="gamburger">
+           <figure class="hamburger">
             <img src="public/images/gamburger.svg">
           </figure>
          </div>
@@ -868,6 +888,7 @@
         <!--<script type="text/javascript" src="./dist/swup.js"></script>рекомендация от А.Сокирко 
       ПЛАВНЫЙ ПЕРЕХОД МЕЖДУ СТР https://www.youtube.com/watch?v=7jr0eUmknsk&t=440s-->
    </footer>
+    <!--<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script> для меню гамбургер https://www.youtube.com/watch?v=CQL8B3wRBA0-->
    <script> 
     $(document).ready(function() {  // для плавного переключения страниц 
       $("body").css("opacity", "1");
