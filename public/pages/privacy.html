@@ -42,8 +42,26 @@
             <img class="elem pipe-phone"src="../images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
             <number class="elem number">+7 900 000 00 00</number>
           </div>
-           <figure class="gamburger">
-            <img src="../images/gamburger.svg">
+           <nav class="header-navigation-mob" style="height: 328px;"><!--header-navigation-mob-open для js-->
+                <button class="close" style="padding-top: 130px;">
+              <img class="close-menu" src="../images/button-close.svg" alt="">
+            </button>
+            <ul class="header__list-nav-mob" style="display: none;">
+              <li class="list-item-mob"><a class="header-link" href="#aboutUse">О нас</a></li>   
+              <li class="list-item-mob"><a class="header-link" href="#services">Виды услуг</a></li>
+              <li class="list-item-mob"><a class="header-link" href="#portfolio">Портфолио</a></li>
+              <li class="list-item-mob"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
+              <li class="list-item-mob"><a class="header-link" href="#contacts">Контакты</a></li>  
+            </ul>
+            <figure class="icons-mob">
+              <img class="img-icons" src="../images/vk.png" alt="vk">
+              <img class="img-icons" src="../images/telega.png" alt="telega">
+              <img class="img-icons" src="../images/Subtract.png" alt="sub">
+              <img class="img-icons" src="../images/Subtract-2.png" alt="sub">
+            </figure>
+          </nav>
+           <figure class="hamburger">
+            <img class="burger" src="../images/gamburger.svg" alt="">
           </figure>
          </div>
         </div>
@@ -137,12 +155,13 @@
            <a href="#header-privacy" class="filter-fixed-button"><img class="fixed-button" src="../images/Group-661.png" alt=""></a>
         </div>
       </div>
+       <script type="text/javascript"src="../script.js/main.js"></script>
        <script type="text/javascript" src="../../library-jq.js/main-jq.js"></script><!--для плавного переключения страниц-->
         <!--<script type="text/javascript" src="./dist/swup.js"></script>рекомендация от А.Сокирко 
       ПЛАВНЫЙ ПЕРЕХОД МЕЖДУ СТР https://www.youtube.com/watch?v=7jr0eUmknsk&t=440s-->
     </footer>
     <script> 
-    $(document).ready(function() {  // для плавного переключения страниц 
+    $(document).ready(function() { //для плавного переключения страниц 
       $("body").css("opacity", "1");
     });
   </script>
