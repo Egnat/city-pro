@@ -243,7 +243,11 @@ slider-wrapper-header-1 {
   padding-right: 10p;
 }
 
-.gamburger {
+.header-navigation-mob {
+  display: none;
+}
+
+.hamburger {
   display: none;
   width: 36px;
   height: 26px;
@@ -1465,13 +1469,108 @@ line-height: normal;
   padding-top: 0;
 }
 
-.header-continer_menu {padding: 15px 20px 15px 20px;}
+.header-logo {padding: 0;}
 
-.header-navigation {display: none;}
+.header__menu-content {
+  eight: auto;
+  background-color: white;
+}
 
-.header-telephon {display:none;}
+.header-continer_menu {
+  lign-items: baseline;
+  padding: 15px 20px 15px 20px;
+}
 
-.gamburger {display: block;}
+.header-navigation {
+  display: none;
+  pacity: 0;
+  -index: -1;
+}
+
+.header-navigation-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  height: 727px;
+  padding-top: 150p;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
+  gap: 34px;
+  z-index: 1;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
+  ransition:.5s;
+  nimation:animateright 0.4s;
+  ransform: translateY(-100%);/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
+}
+
+/*@keyframes animateright {/*Плавный выезд сайдбара*
+  0% {
+    top: -100px;
+    opacity: 0;
+}
+
+100% {
+    right: 0;
+    opacity: 1;
+}
+}*/
+
+header-navigation-mob header-navigation-mob-open {/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
+   ransform: translateY(100%);
+}
+
+.close {
+  /*position: absolute;
+  top: 30px;
+  left: 623px;*/
+  padding: 290px 0 0 0;
+  margin-left: 458p;
+  background-color: transparent;
+  border:none;
+  font-size: 70px;
+  color: red;
+}
+
+.close-menu {
+  width: 30px;
+  height: 30px;
+  color: blue;
+}
+
+.header__list-nav-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-top: 217p;
+  margin: 0;
+  gap: 10px;
+}
+
+.list-item-mob {
+  padding: 0;
+  list-style: none;
+}
+
+.header-link {font-size: 20px;}
+
+.icons-mob {
+  display: flex;
+  gap: 23px;
+  margin: 0;
+}
+
+.header-telephon {
+  display: none;
+  pacity: 0;
+  -index: -1;
+}
+
+.hamburger {display: block;}
 
 .common-slider-continer {
   flex-direction: column;
@@ -1514,7 +1613,7 @@ line-height: normal;
   max-width: 768px;
   height: 667px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 691.png');
+  background-image: url('../public/images/Rectangle-691.png');
   background-repeat: round;
 }
 
@@ -1592,14 +1691,17 @@ line-height: normal;
 
 .services {
   max-width: 768px;
- background-image: url('../public/images/Restangle 691.png');
+ /*background-image: url('../public/images/Restangle-691.png');
   background-size: cover;
-  background-position: center; 
+  background-position: center; */
 }
 
 .services-continer {
   max-width: 768px;
   margin: 0;
+  background-image: url('../public/images/Rectangle-691.png');
+  background-size: cover;
+  background-repeat: round;
 }
 
 .services-continer__content {display: none;}
@@ -1686,7 +1788,7 @@ margin: 0;
   max-width: 768px;
   height: 673px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 691.png');
+  background-image: url('../public/images/Rectangle-691.png');/*bg-servises.png*/
   background-size: cover;
   background-repeat: round;
 }
@@ -1778,7 +1880,7 @@ background-clip: text;
 .form-continer {
   max-width: 768px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 694.png');
+  background-image: url('../public/images/Rectangle-694.png');
   background-repeat: round;
 }
 
@@ -1864,7 +1966,7 @@ background-clip: text;
 .date {
   max-width: 768px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0; /*для разного закругления углов у элемента*/
 }
 
 .date-continer {
@@ -1922,11 +2024,29 @@ html {min-width: 767px;}
 
 .header-continer_menu {padding: 15px 20px 15px 20px;}
 
-.header-navigation {display: none;}
+header-navigation {
+  display: block;
+  pacity: 0;
+  -index: -1;
+}
 
-.header-telephon {display:none;}
+header__list-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.gamburger {display: block;}
+.header-telephon {
+  display: none;
+  pacity: 0;
+  -index: -1;
+}
+
+.hamburger {
+  display: block;
+  z-index: 2;
+}
 
 .common-slider-continer {
   flex-direction: column;
@@ -1969,7 +2089,7 @@ html {min-width: 767px;}
   max-width: 767px;
   height: 667px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 691.png');
+  background-image: url('../public/images/Rectangle-691.png');
   background-repeat: round;
 }
 
@@ -2047,14 +2167,17 @@ html {min-width: 767px;}
 
 .services {
   max-width: 767px;
- background-image: url('../public/images/Restangle 691.png');
+ /*background-image: url('../public/images/Restangle-691.png');
   background-size: cover;
-  background-position: center; 
+  background-position: center; */
 }
 
 .services-continer {
   max-width: 767px;
   margin: 0;
+  background-image: url('../public/images/Rectangle-691.png');
+  background-size: cover;
+  background-repeat: round;
 }
 
 .services-continer__content {display: none;}
@@ -2141,7 +2264,7 @@ margin: 0;
   max-width: 767px;
   height: 673px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 691.png');
+  background-image: url('../public/images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -2228,7 +2351,7 @@ background-clip: text;
 .form-continer {
   max-width: 767px;
   margin: 0;
-  background-image: url('../public/images/Rectangle 694.png');
+  background-image: url('../public/images/Rectangle-694.png');
   background-repeat: round;
 }
 
@@ -2313,7 +2436,7 @@ background-clip: text;
 .date {
   max-width: 767px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
 }
 
 .date-continer {
@@ -2368,6 +2491,84 @@ background-clip: text;
 .block-dot-header {
   margin: -51px 0 0 192px;
 }
+
+.header-navigation-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  height: 727px;
+  padding-top: 150p;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
+  gap: 34px;
+  z-index: 1;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
+  ransition:.5s;
+  nimation:animateright 0.4s;
+  ransform: translateY(-100%);/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
+}
+
+/*@keyframes animateright {/*Плавный выезд сайдбара*
+  0% {
+    top: -100px;
+    opacity: 0;
+}
+
+100% {
+    right: 0;
+    opacity: 1;
+}
+}*/
+
+header-navigation-mob header-navigation-mob-open {/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
+   ransform: translateY(100%);
+}
+
+.close {
+  /*position: absolute;
+  top: 30px;
+  left: 623px;*/
+  padding: 290px 0 0 0;
+  margin-left: 458p;
+  background-color: transparent;
+  border:none;
+  font-size: 70px;
+  color: red;
+}
+
+.close-menu {
+  width: 30px;
+  height: 30px;
+  color: blue;
+}
+
+.header__list-nav-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-top: 217p;
+  margin: 0;
+  gap: 10px;
+}
+
+.list-item-mob {
+  padding: 0;
+  list-style: none;
+}
+
+.header-link {font-size: 20px;}
+
+.icons-mob {
+  display: flex;
+  gap: 23px;
+  margin: 0;
+}
+
 
 .section-continer {
   max-width: 574px;
@@ -2462,6 +2663,10 @@ max-width: 575px;
 
  .header {
     height: 870px;
+}
+
+.icons-mob {
+  gap: 10px;
 }
 
 .mySlidess {max-width: 425px;}
