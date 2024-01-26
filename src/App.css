@@ -1502,6 +1502,7 @@ line-height: normal;
   lign-items: baseline;
   padding: 15px 20px 15px 20px;
   border-radius: 0 0 20px 20px;
+  box-shadow: 1px 7px 16px #00000026;
 }
 
 .header-navigation {
