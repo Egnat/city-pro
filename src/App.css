@@ -49,9 +49,10 @@ body {
   opacity:0; transition:.5s;/*добавляем для плавного переключения страниц*/
 }
 
-*, *::before, *::after {
+* {
 box-sizing: border-box;
-/*padding: 0;
+/*, *::before, *::after
+padding: 0;
 margin: 0;
 outline: solid re;/*удобно проверять лишнюю ширину и ввысоту у элементов*/
 }
@@ -555,7 +556,7 @@ cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 19px;/*1.1em лучше здесь прописывать em, при изменении фонт сайза лайн хейт пропорционально меняется*/
   color: #272727;
 }
 
