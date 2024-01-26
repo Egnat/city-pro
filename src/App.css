@@ -2052,6 +2052,7 @@ html {min-width: 767px;}
 
 .header-continer_menu {
   padding: 15px 20px 15px 20px;
+  box-shadow: 1px 7px 16px #00000026;
 }
 
 header-navigation {
@@ -2119,7 +2120,7 @@ header__list-nav {
   max-width: 767px;
   height: 667px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../public/images/Rectangle-691.png');
   background-repeat: round;
 }
 
@@ -2205,7 +2206,7 @@ header__list-nav {
 .services-continer {
   max-width: 767px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../public/images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -2294,7 +2295,7 @@ margin: 0;
   max-width: 767px;
   height: 673px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../public/images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -2381,7 +2382,7 @@ background-clip: text;
 .form-continer {
   max-width: 767px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-694.png');
+  ackground-image: url('../public/images/Rectangle-694.png');
   background-repeat: round;
 }
 
@@ -2514,7 +2515,10 @@ background-clip: text;
 
 .common-slider-continer {max-width: 575px;}
 
-.header-continer_menu {padding: 15px 30px 15px 30px;}
+.header-continer_menu {
+  padding: 15px 30px 15px 30px;
+  box-shadow: 1px 7px 16px #00000026;
+}
 
 .header__main-text {
     max-width: 76%;
@@ -2600,7 +2604,6 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
   gap: 23px;
   margin: 0;
 }
-
 
 .section-continer {
   max-width: 574px;
