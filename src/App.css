@@ -2013,6 +2013,8 @@ background-clip: text;
   text-align: center;
 }
 
+.date-list {align-items: center;}
+
 .footer-menu {display: none;}
 
 .date-continer__content-common2 {display: none;}
