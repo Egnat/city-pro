@@ -2076,7 +2076,7 @@ header__list-nav {
 
 .hamburger {
   display: block;
-  z-index: 2;
+  -index: 2;
 }
 
 .common-slider-continer {
@@ -2695,6 +2695,8 @@ max-width: 575px;
     width: 310px;
     border-radius: 24px;
     margin: 0 auto;
+    /*background-image: url('../public/images/popup-1.png');
+    background-size: cover;*/
   }
 
  .header {
