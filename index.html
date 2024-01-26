@@ -66,11 +66,10 @@
     <header class="header" id="header">
       <!--<img src="images/image 6.png" alt="fon header">-->
       <div class="slider_demonstration-header">
-<!--<div class="slider-wrapper-header">-->
-<!--<div class="slideshow-container-header">-->
-<div class="mySlidess" style="background-image: url(public/images/image-6.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);"> 
-<div class="continer header-continer-menu">
-        <div class="header__menu-content">
+       <!--<div class="slider-wrapper-header">-->
+        <!--<div class="slideshow-container-header">-->
+         <div class="continer header-continer-menu"><!--НАВИГАЦИЯ ВСЕГДА ДОЛЖНА БЫТЬ НЕ ЗАВИСИМЫМ БЛОКОМ, ТАКЖЕ КАК КНОПКИ СЛАЙДЕРА, ЭТИ ЭЛЕМЕНТЫ ДОЛЖНЫ СТОЯТЬ В ОБЩЕЙ СЕКЦИИ, А НЕ В КАЖДОМ МАЙ СЛАДЕСЕ, ПОТОМУ ЧТО В ФАЙЛЕ ДЖАВА СКРИПТ ФУНКЦИИ ДЛЯ ЭЛЕМЕНТОВ ЭТИХ БЛОКОВ ПРОПИСЫВАЮТСЯ ОДИН РАЗ (ЭЛЕМЕНТЫ ТАКИЕ КАК ГАМБУРГЕР И КНОПКА ЗАКРЫТЬ. ЭТОТ ДИВ ПО ХОРОШЕМУ НУЖНО ИЗ МАЙ СЛАЙДЕСС ВЫНЕСТИ В ОБЩУЮ СЕКЦИЮ <div class="slider_demonstration-header">, ТАКЖЕ КАК ВЫНЕСЕНЫ БУЛЛИТЫ СЛАЙДЕРА-->
+         <div class="header__menu-content">
           <div class="header-continer_menu">
           <div class="header-logo">
             <img class="img_tassel" src="public/images/tassel.png" alt="tassel">
@@ -90,7 +89,8 @@
           </nav>
           <div class="header-telephon">
             <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
-            <number class="elem number">+7 900 000 00 00</number>
+            <a href="tel:+79000000000" class="elem number">+7 900 000 00 00</a><!--Телефон записываем в ссылку для кликабельности, чтобы можно было позвонить по номеру прямо с сайта, кликнув на телефон-->
+            <!--<number class="elem number">+7 900 000 00 00</number>-->
           </div>
              <nav class="header-navigation-mob"><!--header-navigation-mob-open для js-->
                 <button class="close">&times;
@@ -136,8 +136,9 @@
         </figure>-->
       <!--</div>-->
       </div> 
-  <div class="common-slider-continer">
-<div class="header-continer__common__text-button">
+  <div class="mySlidess" style="background-image: url(public/images/image-6.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);"> 
+      <div class="common-slider-continer">
+         <div class="header-continer__common__text-button">
             <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
             <div class="header__button-common">
               <div>
@@ -158,60 +159,11 @@
         <figure class="header_filter_big-photo">
           <img class="big-photo" src="public/images/Layer-4-1.png"alt="dyer"><!-- style="width: 505px; height: 480px;"-->
         </figure>
-</div>
-</div>
-<div class="mySlidess" style="background-image: url(public/images/image-6-1.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
-  <div class="continer header-continer-menu">
-        <div class="header__menu-content">
-          <div class="header-continer_menu">
-          <div class="header-logo">
-            <img class="img_tassel" src="public/images/Vector.png" alt="tassel">
-            <article class="header__logo-text">
-              <p class="header__logo-text_p">СИТИ</p>
-              <p class="header__logo-text_p" style="margin-top: -3px;">ПРО</p>
-            </article>
-          </div>
-          <nav class="header-navigation">
-            <ul class="header__list-nav">
-              <li class="list-item" style="padding-right: 40px"><a class="header-link" href="#aboutUse">О нас</a></li>   
-              <li class="list-item2"><a class="header-link" href="#services">Виды услуг</a></li>
-              <li class="list-item2"><a class="header-link" href="#portfolio">Портфолио</a></li>
-              <li class="list-item2" style="padding-right: 40px"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
-              <li class="list-item" style="padding-left: 40p;"><a class="header-link" href="#contacts">Контакты</a></li>  
-            </ul>
-          </nav>
-          <div class="header-telephon">
-            <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
-            <number class="elem number">+7 900 000 00 00</number>
-          </div>
-           <figure class="hamburger">
-            <img src="public/images/gamburger.svg">
-          </figure>
-         </div>
-        </div>
-        <!--<div class="header-continer__common">-->
-          <!--<div class="header-continer__common__text-button">
-            <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
-            <div class="header__button-common">
-              <button class="header-button">Получить консультацию</button>
-              <div class="restangles-contine">
-                <number class="zOne">01</number>
-                <div class="restangles">
-                  <figure class="elem2 restanglOne"></figure>
-                  <figure class="elem2 restanglTwo"></figure>
-                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>
-                <number class="zThree">03</number>
-              </div>
-            </div>
-          </div>-->
-        <!--<figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-4-1.png" alt="dyer">
-        </figure>-->
-      <!--</div>-->
-      </div>
-  <div class="common-slider-continer">
-<div class="header-continer__common__text-button">
+  </div>
+ </div>
+ <div class="mySlidess" style="background-image: url(public/images/image-6-1.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
+         <div class="common-slider-continer">
+           <div class="header-continer__common__text-button">
             <h1 class="header__main-text" style="width: 509px;">Профессиональная окраска интерьера</h1>
             <div class="header__button-common">
                <div>
@@ -232,58 +184,9 @@
        <figure class="header_filter_big-photo">
           <img class="big-photo" src="public/images/Layer-2-1.png"  alt="dyer"><!--style="width:480px; height: 480px;"-->
         </figure>
-</div>        
-</div>
-<div class="mySlidess" style="background-image: url(public/images/image-6-2.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
-  <div class="continer header-continer-menu">
-        <div class="header__menu-content">
-          <div class="header-continer_menu">
-          <div class="header-logo">
-            <img class="img_tassel" src="public/images/Vector.png" alt="tassel">
-            <article class="header__logo-text">
-              <p class="header__logo-text_p">СИТИ</p>
-              <p class="header__logo-text_p" style="margin-top: -3px;">ПРО</p>
-            </article>
-          </div>
-          <nav class="header-navigation">
-            <ul class="header__list-nav">
-              <li class="list-item" style="padding-right: 40px"><a class="header-link" href="#aboutUse">О нас</a></li>   
-              <li class="list-item2"><a class="header-link" href="#services">Виды услуг</a></li>
-              <li class="list-item2"><a class="header-link" href="#portfolio">Портфолио</a></li>
-              <li class="list-item2" style="padding-right: 40px"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
-              <li class="list-item" style="padding-left: 40p;"><a class="header-link" href="#contacts">Контакты</a></li>  
-            </ul>
-          </nav>
-          <div class="header-telephon">
-            <img class="elem pipe-phone"src="public/images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
-            <number class="elem number">+7 900 000 00 00</number>
-          </div>
-           <figure class="hamburger">
-            <img src="public/images/gamburger.svg" alt="burger">
-          </figure>
-         </div>
-        </div>
-        <!--<div class="header-continer__common">-->
-          <!--<div class="header-continer__common__text-button">
-            <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
-            <div class="header__button-common">
-              <button class="header-button">Получить консультацию</button>
-              <div class="restangles-contine">
-                <number class="zOne">01</number>
-                <div class="restangles">
-                  <figure class="elem2 restanglOne"></figure>
-                  <figure class="elem2 restanglTwo"></figure>
-                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>
-                <number class="zThree">03</number>
-              </div>
-            </div>
-          </div>-->
-        <!--<figure class="header_filter_big-photo">
-          <img class="big-photo" src="public/images/Layer-4-1.png" alt="dyer">
-        </figure>-->
-      <!--</div>-->
-      </div>
+   </div>        
+  </div>
+  <div class="mySlidess" style="background-image: url(public/images/image-6-2.png); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
   <div class="common-slider-continer">
     <div class="header-continer__common__text-button">
             <h1 class="header__main-text">Профессиональная окраска экстерьера</h1>
@@ -306,8 +209,8 @@
      <figure class="header_filter_big-photo">
           <img class="big-photo" src="public/images/Layer-1-copy-1.png"  alt="dyer"><!--style="width: 465px; height: 480px;"-->
         </figure>
-</div>
-</div>
+    </div>
+  </div>
 <div class="block-btn-header-continer">
  <!--<div class="btn btn-prev-header"> 
     <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">

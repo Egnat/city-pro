@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Unbounded');
 
+@import url(fonts.css);
+
 ::-webkit-scrollbar {
 width:.1px;
 height:5px;
@@ -111,7 +113,7 @@ backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);*/
 
 .header {
   width: 1280p;
-  height: 715px;
+  height: 700px;
   overflow: hidden;
   /*background-image: url(../public/images/image-6.png);
   background-size: cover;
@@ -132,23 +134,26 @@ slider-wrapper-header-1 {
 }
 
 .header-continer-menu {
-  padding-top: 35px;
+  margin-top: 35px;
 }
 
 .header__menu-content {
   display: flex;
   align-items: center;
   height: 80px;
-  background-color: #FFFFFF;
+  ackground-color: #FFFFFF;
 }
 
 .header-continer_menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-  width: 1030px;
-  padding-top: 20p;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 80px;
+    padding: 20px 70px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: white;
 }
 
 .header-logo {
@@ -236,6 +241,7 @@ slider-wrapper-header-1 {
   display: flex;
   align-items: center;
   text-align: center;
+  text-decoration-line: none;
   color: #272727;
 }
 
@@ -247,7 +253,11 @@ slider-wrapper-header-1 {
   display: none;
 }
 
-.hamburger {
+.header-navigation-mob-2 {
+  display: none;
+}
+
+.hamburger, .hamburger-2 {
   display: none;
   width: 36px;
   height: 26px;
@@ -283,10 +293,12 @@ display:none;
 justify-content: space-between;
 width: 100%;
 height: 100%;
+margin-top: -115px;
 background-size: cover;
 background-position: center center;
-/*-webkit-animation-name: slowingg;/*при включеном nimation-name - не работает*
--webkit-animation-duration: 1.5s;/*при включеном nimation-duration - не работает*
+/*box-shadow:inset 1280px 844px rgba(0 0 0 / 70%); внутренняя тень фото*/
+/*-webkit-animation-name: slowingg;/*при включеном animation-name - не работает*/
+/*-webkit-animation-duration: 1.5s;/*при включеном animation-duration - не работает*
 animation-name: slowingg;
 animation-duration: 0.9s;*/
 }
@@ -300,7 +312,7 @@ to {opacity: 1}
   display: flex;
   justify-content: space-between;
   width: 1030px;
-  padding-top: 38px;
+  padding-top: 166px;
   margin: 0 auto;
 }
 
@@ -316,7 +328,7 @@ to {opacity: 1}
   justify-content: space-between;
   align-items: center;
   width: 200px;
-  margin-top: -166px;
+  margin-top: -119px;
   margin-left: 40px;
 }
 
@@ -343,6 +355,7 @@ cursor: pointer;
   flex-direction: column;
   justify-content: space-betwee;
   align-items: flex-start;
+  margin-top: 20px;
   margin-right: 40px;
   gap: 91px;
 }
@@ -612,6 +625,12 @@ cursor: pointer;
   background-size: cover;
   background-position: center;
   ackground-repeat: no-repeat;
+}
+
+services-continer {
+    background-image: url(../public/images/Rectangle-691.png);
+    background-size: cover;
+    background-repeat: round;
 }
 
 .slider_demonstration-services {display: none;}
@@ -1452,11 +1471,12 @@ line-height: normal;
 
 .continer {max-width: 720px;}
 
-.header {height: 920px}
+.header {height: 928px;}
 
 .mySlidess {
   max-width: 768px;
-  border-radius: 52px;
+  height: 104%;
+  border-radius: 0 0 50px 50px;
 }
 
 .common-slider-continer {
@@ -1467,6 +1487,7 @@ line-height: normal;
 .header-continer-menu {
   max-width: max-content;
   padding-top: 0;
+  margin-top: 0;
 }
 
 .header-logo {padding: 0;}
@@ -1479,6 +1500,7 @@ line-height: normal;
 .header-continer_menu {
   lign-items: baseline;
   padding: 15px 20px 15px 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 .header-navigation {
@@ -1487,13 +1509,13 @@ line-height: normal;
   -index: -1;
 }
 
-.header-navigation-mob {
+.header-navigation-mob, .header-navigation-mob-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: -webkit-fill-available;
-  height: 727px;
+  height: 756px;
   padding-top: 150p;
   border-radius: 0 0 20px 20px;
   background-color: white;
@@ -1522,11 +1544,11 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
    ransform: translateY(100%);
 }
 
-.close {
+.close, .close-2 {
   /*position: absolute;
   top: 30px;
   left: 623px;*/
-  padding: 290px 0 0 0;
+  padding: 312px 0 0 0;
   margin-left: 458p;
   background-color: transparent;
   border:none;
@@ -1548,6 +1570,7 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
   padding: 0;
   padding-top: 217p;
   margin: 0;
+  margin-bottom: 21px;
   gap: 10px;
 }
 
@@ -1570,7 +1593,7 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
   -index: -1;
 }
 
-.hamburger {display: block;}
+.hamburger, .hamburger-2 {display: block;}
 
 .common-slider-continer {
   flex-direction: column;
@@ -1606,7 +1629,7 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
 }
 
 .block-dot-header {
-  margin: -51px 0 0 291px;
+  margin: -48px 0 0 289px;
 }
 
 .section-continer {
@@ -1754,8 +1777,8 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
-    margin-left: 288px;
+    width: 227px;
+    margin-left: 276px;
 }
 
 .block-confidence-continer {
@@ -2003,13 +2026,13 @@ background-clip: text;
 @media screen and (max-width: 767px) {
 html {min-width: 767px;}  
 
-.continer {max-width: 720px;}
+.continer {max-width: 720p;}
 
-.header {height: 920px}
+.header {height: 928px;}
 
 .mySlidess {
   max-width: 767px;
-  border-radius: 52px;
+  border-radius: 0 0 50px 50px;
 }
 
 .common-slider-continer {
@@ -2020,9 +2043,12 @@ html {min-width: 767px;}
 .header-continer-menu {
   max-width: max-content;
   padding-top: 0;
+  margin-top: 0;
 }
 
-.header-continer_menu {padding: 15px 20px 15px 20px;}
+.header-continer_menu {
+  padding: 15px 20px 15px 20px;
+}
 
 header-navigation {
   display: block;
@@ -2082,7 +2108,7 @@ header__list-nav {
 }
 
 .block-dot-header {
-  margin: -51px 0 0 291px;
+  margin: -48px 0 0 289px;
 }
 
 .section-continer {
@@ -2230,8 +2256,8 @@ header__list-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
-    margin-left: 288px;
+    width: 227px;
+    margin-left: 276px;
 }
 
 .block-confidence-continer {
@@ -2484,12 +2510,14 @@ background-clip: text;
 
 .common-slider-continer {max-width: 575px;}
 
+.header-continer_menu {padding: 15px 30px 15px 30px;}
+
 .header__main-text {
-    max-width: 68%;
+    max-width: 76%;
 }
 
 .block-dot-header {
-  margin: -51px 0 0 192px;
+  margin: -49px 0 0 195px;
 }
 
 .header-navigation-mob {
@@ -2591,7 +2619,8 @@ max-width: 575px;
 }
 
 .block-dott-services {
-  margin-left: 193px;
+  width: 225px;
+  margin-left: 180px;  
 }    
 
 .block-confidence-continer {
@@ -2641,7 +2670,7 @@ max-width: 575px;
 
 .privacy-description {
   max-width: 500p;
-  padding:0 15px;
+  padding:20px 15px 0 15px;
 }
 
 } 
@@ -2679,7 +2708,7 @@ max-width: 575px;
 }
 
 .block-dot-header {
-    margin: -75px 0 0 117px;
+    margin: -61px 0 0 117px;
 }
 
 .header__main-text {
@@ -2736,7 +2765,14 @@ background-clip: text;
 
 .services-continer__common__text-button {text-align: center;}
 
-.block-dott-services {margin-left: 119px;}
+.group1-services, .group2-services, .group3-services, .group4-services {
+  width: 75%;
+}
+
+.block-dott-services {
+ width: 308px;
+ margin-left: 64px;
+}
 
 .portfolio-continer {height: 715px; }
 
@@ -2755,11 +2791,11 @@ background-clip: text;
  text-align: center;
 }
 
-.restangles-continer-services {width: 377px;}
+.restangles-continer-services {width: 372px;}
 
 .block-dottt-portfolio-tablet {
   width: 301px;
- margin-left: 55px;
+ margin-left: 50px;
 }
 
 .img-building {width: 387px;}
