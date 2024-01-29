@@ -128,7 +128,7 @@ backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);*/
 
 slider-wrapper-header-1 {
   height: 100%;
-  background-image: url('../public/images/image-6.png');
+  background-image: url('../images/image-6.png');
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow:inset 1280px 771px rgb(0 0 0 / 7%);
@@ -490,7 +490,7 @@ cursor: pointer;
 
 .section-continer {
   height: 564px;
-  background-image: url('../public/images/Rectangle-55.png');/*no-repeat center center*/
+  background-image: url('../images/Rectangle-55.png');/*no-repeat center center*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -622,14 +622,14 @@ cursor: pointer;
 
 .services {
   height: 670px;
-  background-image: url('../public/images/Rectangle_55.png');
+  background-image: url('../images/Rectangle_55.png');
   background-size: cover;
   background-position: center;
   ackground-repeat: no-repeat;
 }
 
 services-continer {
-    background-image: url(../public/images/Rectangle-691.png);
+    background-image: url(../images/Rectangle-691.png);
     background-size: cover;
     background-repeat: round;
 }
@@ -772,7 +772,7 @@ services-continer {
 
 .portfolio-continer {
   height: 544px;
-  background-image: url('../public/images/Rectangle-65.png');
+  background-image: url('../images/Rectangle-65.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -952,7 +952,7 @@ animation-duration: 0.9s;*/
 
 .form-continer {
   height: 750px;
-  background-image: url('../public/images/Rectangle-74.png');
+  background-image: url('../images/Rectangle-74.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1639,7 +1639,7 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
 aboutUs {
   max-width: 768px;
   height: 667px;
-  background-image: url('../public/images/Rectangle-691.png');
+  background-image: url('../images/Rectangle-691.png');
   background-repeat: round;
   background-size: cover;
   background-position: center;
@@ -1649,7 +1649,7 @@ aboutUs {
   max-width: 768px;
   height: 667px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');
+  background-image: url('../images/Rectangle-691.png');
   background-repeat: round;
 }
 
@@ -1736,7 +1736,7 @@ aboutUs {
 .services-continer {
   max-width: 768px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');
+  background-image: url('../images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -1825,7 +1825,7 @@ margin: 0;
   max-width: 768px;
   height: 673px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-691.png');/*bg-servises.png*/
+  background-image: url('../images/Rectangle-691.png');/*bg-servises.png*/
   background-size: cover;
   background-repeat: round;
 }
@@ -1918,7 +1918,7 @@ background-clip: text;
 .form-continer {
   max-width: 768px;
   margin: 0;
-  background-image: url('../public/images/Rectangle-694.png');
+  background-image: url('../images/Rectangle-694.png');
   background-repeat: round;
 }
 
@@ -2133,7 +2133,7 @@ header__list-nav {
   max-width: 767px;
   height: 667px;
   margin: 0;
-  ackground-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../images/Rectangle-691.png');
   background-repeat: round;
 }
 
@@ -2219,7 +2219,7 @@ header__list-nav {
 .services-continer {
   max-width: 767px;
   margin: 0;
-  ackground-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -2308,7 +2308,7 @@ margin: 0;
   max-width: 767px;
   height: 673px;
   margin: 0;
-  ackground-image: url('../public/images/Rectangle-691.png');
+  ackground-image: url('../images/Rectangle-691.png');
   background-size: cover;
   background-repeat: round;
 }
@@ -2395,7 +2395,7 @@ background-clip: text;
 .form-continer {
   max-width: 767px;
   margin: 0;
-  ackground-image: url('../public/images/Rectangle-694.png');
+  ackground-image: url('../images/Rectangle-694.png');
   background-repeat: round;
 }
 
