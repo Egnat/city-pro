@@ -1530,6 +1530,8 @@ line-height: normal;
   ransform: translateY(-100%);/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
 }
 
+header show-menu {display: flex;} /*для main.js - jQuery не работает */
+
 /*@keyframes animateright {/*Плавный выезд сайдбара*
   0% {
     top: -100px;
@@ -1543,7 +1545,7 @@ line-height: normal;
 }*/
 
 header-navigation-mob header-navigation-mob-open {/*это нужно писать если делать по примеру ютюба , выезд меню сверху со свойством транслейт, not work*/
-   ransform: translateY(100%);
+   transform: translateY(100%);
 }
 
 .close, .close-2 {
@@ -1634,6 +1636,15 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
   margin: -48px 0 0 289px;
 }
 
+aboutUs {
+  max-width: 768px;
+  height: 667px;
+  background-image: url('../public/images/Rectangle-691.png');
+  background-repeat: round;
+  background-size: cover;
+  background-position: center;
+}
+
 .section-continer {
   max-width: 768px;
   height: 667px;
@@ -1693,7 +1704,8 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
     display: block;
     width: 100px;
     height: 100px;
-    margin-top: -44px;  
+    margin-top: -44px;
+    border-radius: 69px;  
 }
 
 .advantages {margin-top: 130px;}
@@ -1898,6 +1910,7 @@ background-clip: text;
     height: 100px;
     margin-top: 114px;
     margin-left: 171px; 
+    border-radius: 69px; 
 }
 
 .section-form {margin-top: 130px;}
