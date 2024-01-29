@@ -37,11 +37,11 @@ function off() {
 function change() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotoo = document.querySelector('.group1');
    newPhotoo.style.cursor = "pointer";
-   if (newPhotoo.src.match("public/images/Group-656.png")) {
-      newPhotoo.src = "public/images/change-1.png";
+   if (newPhotoo.src.match("images/Group-656.png")) {
+      newPhotoo.src = "images/change-1.png";
    }
    else {
-      newPhotoo.src = "public/images/Group-656.png";
+      newPhotoo.src = "images/Group-656.png";
     }
     //alert('hi');
 };
@@ -49,11 +49,11 @@ function change() { //Смена фоток при клике. В индекс �
 function changee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotooo = document.querySelector('.group2');
    newPhotooo.style.cursor = "pointer";
-   if (newPhotooo.src.match("public/images/Group-657.png")) {
-      newPhotooo.src = "public/images/change-2.png";
+   if (newPhotooo.src.match("images/Group-657.png")) {
+      newPhotooo.src = "images/change-2.png";
    }
    else {
-      newPhotooo.src = "public/images/Group-657.png";
+      newPhotooo.src = "images/Group-657.png";
     }
     //alert('hi');
 };
@@ -61,11 +61,11 @@ function changee() { //Смена фоток при клике. В индекс 
 function changeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhoto = document.querySelector('.group3');
    newPhoto.style.cursor = "pointer";
-   if (newPhoto.src.match("public/images/Group-658.png")) {
-      newPhoto.src = "public/images/Group-660.png";
+   if (newPhoto.src.match("images/Group-658.png")) {
+      newPhoto.src = "images/Group-660.png";
    }
    else {
-      newPhoto.src = "public/images/Group-658.png";
+      newPhoto.src = "images/Group-658.png";
     }
     //alert('hi');
 };
@@ -73,11 +73,11 @@ function changeee() { //Смена фоток при клике. В индекс
 function changeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotoooo = document.querySelector('.group4');
    newPhotoooo.style.cursor = "pointer";
-   if (newPhotoooo.src.match("public/images/Group-659.png")) {
-      newPhotoooo.src = "public/images/change-4.png";
+   if (newPhotoooo.src.match("images/Group-659.png")) {
+      newPhotoooo.src = "images/change-4.png";
    }
    else {
-      newPhotoooo.src = "public/images/Group-659.png";
+      newPhotoooo.src = "images/Group-659.png";
     }
     //alert('hi');
 };
@@ -86,11 +86,11 @@ function changeeee() { //Смена фоток при клике. В индек�
 function changeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotooooo = document.querySelector('.group1-services');
    newPhotooooo.style.cursor = "pointer";
-   if (newPhotooooo.src.match("public/images/Group-656.png")) {
-      newPhotooooo.src = "public/images/change-1.png";
+   if (newPhotooooo.src.match("images/Group-656.png")) {
+      newPhotooooo.src = "images/change-1.png";
    }
    else {
-      newPhotooooo.src = "public/images/Group-656.png";
+      newPhotooooo.src = "images/Group-656.png";
     }
     //alert('hi');
 };
@@ -98,11 +98,11 @@ function changeeeee() { //Смена фоток при клике. В индек
 function changeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotoooooo = document.querySelector('.group2-services');
    newPhotoooooo.style.cursor = "pointer";
-   if (newPhotoooooo.src.match("public/images/Group-657.png")) {
-      newPhotoooooo.src = "public/images/change-2.png";
+   if (newPhotoooooo.src.match("images/Group-657.png")) {
+      newPhotoooooo.src = "images/change-2.png";
    }
    else {
-      newPhotoooooo.src = "public/images/Group-657.png";
+      newPhotoooooo.src = "images/Group-657.png";
     }
     //alert('hi');
 };
@@ -110,11 +110,11 @@ function changeeeeee() { //Смена фоток при клике. В инде�
 function changeeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotooooooo = document.querySelector('.group3-services');
    newPhotooooooo.style.cursor = "pointer";
-   if (newPhotooooooo.src.match("public/images/Group-658.png")) {
-      newPhotooooooo.src = "public/images/Group-660.png";
+   if (newPhotooooooo.src.match("images/Group-658.png")) {
+      newPhotooooooo.src = "images/Group-660.png";
    }
    else {
-      newPhotooooooo.src = "public/images/Group-658.png";
+      newPhotooooooo.src = "images/Group-658.png";
     }
     //alert('hi');
 };
@@ -122,11 +122,11 @@ function changeeeeeee() { //Смена фоток при клике. В инде
 function changeeeeeeee() { //Смена фоток при клике. В индекс штмл поставил onclick
   let newPhotoooooooo = document.querySelector('.group4-services');
    newPhotoooooooo.style.cursor = "pointer";
-   if (newPhotoooooooo.src.match("public/images/Group-659.png")) {
-      newPhotoooooooo.src = "public/images/change-4.png";
+   if (newPhotoooooooo.src.match("images/Group-659.png")) {
+      newPhotoooooooo.src = "images/change-4.png";
    }
    else {
-      newPhotoooooooo.src = "public/images/Group-659.png";
+      newPhotoooooooo.src = "images/Group-659.png";
     }
     //alert('hi');
 };
