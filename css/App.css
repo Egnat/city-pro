@@ -1633,7 +1633,7 @@ header-navigation-mob header-navigation-mob-open {/*это нужно писат
 }
 
 .block-dot-header {
-  margin: -48px 0 0 289px;
+  margin: -52px 0 0 286px;
 }
 
 aboutUs {
@@ -2126,7 +2126,7 @@ header__list-nav {
 }
 
 .block-dot-header {
-  margin: -48px 0 0 289px;
+  margin: -52px 0 0 286px;
 }
 
 .section-continer {
@@ -2538,7 +2538,7 @@ background-clip: text;
 }
 
 .block-dot-header {
-  margin: -49px 0 0 195px;
+  margin: -52px 0 0 191px;
 }
 
 .header-navigation-mob {
@@ -2730,7 +2730,7 @@ max-width: 575px;
 }
 
 .block-dot-header {
-    margin: -61px 0 0 117px;
+    margin: -64px 0 0 117px;
 }
 
 .header__main-text {
@@ -2868,4 +2868,11 @@ background-clip: text;
 
 @media screen and (max-width: 320px) {
 
-}*/
+}
+
+@media only screen and (min-width: 1240px) 
+and (max-width: 1679px), 
+only screen and (min-width: 1240px) 
+and (max-height: 1049px)
+Такой медиазапрос написан в спортивном журнале СИ https://www.si.com/
+*/
