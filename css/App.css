@@ -1456,6 +1456,10 @@ line-height: normal;
 
 @media screen and (max-width: 1024px) {
 
+  .block-btn {
+    margin-top: -55px;
+}
+
 }
 
 @media screen and (max-width: 800px) {
@@ -1915,8 +1919,9 @@ background-clip: text;
 
 .section-form {margin-top: 130px;}
 
-.form-continer {
+.form-continer { /************************************************************/
   max-width: 768px;
+  height: 770px;
   margin: 0;
   background-image: url('../images/Rectangle-694.png');
   background-repeat: round;
@@ -2392,11 +2397,12 @@ background-clip: text;
 
 .section-form {margin-top: 130px;}
 
-.form-continer {
+.form-continer {/***********************************************/
   max-width: 767px;
+  height: 770px;
   margin: 0;
   ackground-image: url('../images/Rectangle-694.png');
-  background-repeat: round;
+  background-repeat: round; 
 }
 
 .form-continer__content {
