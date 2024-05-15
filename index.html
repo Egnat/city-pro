@@ -1,3 +1,197 @@
+<noscript>
+  <!--<div class="slider_demonstration-portfolio-tablet">
+          <div class="slider-wrapper-portfolio-tablet">
+            <div class="slideshow-container-portfolio-tablet">
+             <div class="mySlidessss">  
+              <div class="portfolio-tablet-continer__common__text-button">
+               <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                 <picture class="filter__img-building">
+                <img class="img-building" src="public/images/image 5.png" alt="building"></picture>
+               <div class="services__button-common">
+               <div class="restangles-continer-services">
+                 <number class="zOne">01</number>
+                 !--<div class="restangles">
+                   <figure class="elem2 restanglOne"></figure>
+                   <figure class="elem2 restanglTwo"></figure>
+                   <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                 </div>--
+                 <number class="zThree">03</number>
+               </div>
+             </div>
+              <article class="portfolio-subtitle">
+                <h3 class="subtitle_portfolio">Kazakov Grand Loft</h3>
+                <article class="portfolio-paragrafs">
+                  <p class="paragraf_portfolio">Kazakov Grand Loft — новый проект в исторической части Москвы, дом для тех, кто не идет на компромиссы. Все, на что город будет равняться в обозримой перспективе, находится здесь. И в центре этого мира вы. Индивидуальность даже в мелочах и комфорт, возведенный в абсолют — чем не рецепт совершенства?</p>
+                  <p class="paragraf_portfolio">Проект прогрессивной авторской архитектуры, умного наполнения и персональных панорамных видов на город. Здесь созданы условия премиального сервиса, чтобы вы не отвлекались на бытовые мелочи, а просто наслаждались жизнью.</p>
+                </article>
+             </article>
+           </div>
+         </div>
+         <div class="mySlidessss">  
+              <div class="portfolio-tablet-continer__common__text-button">
+                <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
+                 <picture class="filter__img-building">
+                <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
+               <div class="services__button-common">
+               <div class="restangles-continer-services">
+                 <number class="zOne">02</number>
+                 !--<div class="restangles">
+                   <figure class="elem2 restanglOne"></figure>
+                   <figure class="elem2 restanglTwo"></figure>
+                   <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
+                 </div>--
+                 <number class="zThree">03</number>
+               </div>
+             </div>
+           </div>
+         </div>
+ <div class="block-btn-portfolio-tablet-continer">
+  !--<div class="btn btn-prev-adventages"> 
+     <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
+  </div>--
+  <div class="block-dottt-portfolio-tablet">
+   <div class="dottt" onclick="currentsssSlideeee(1)"></div> 
+   <div class="dottt" onclick="currentsssSlideeee(2)"></div> 
+   <div class="dottt" onclick="currentsssSlideeee(3)"></div>
+ </div>
+  !--<div class="btn btn-next-adventages">
+     <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
+  </div>--
+  </div>
+ </div>
+ </div>
+ </div>
+ <script>
+ let slideeeeIndex = 1;
+ function positionsssSlidessss(n) {
+   showsssSlidessss(slideeeeIndex += n);
+ } 
+ 
+ function currentsssSlideeee(n) {
+   showsssSlidessss(slideeeeIndex = n);
+ }
+ 
+ function showsssSlidessss(n) {
+   let slidessss = document.getElementsByClassName("mySlidessss");
+   let dotsss = document.getElementsByClassName("dottt");  
+   if (n > slidessss.length) {slideeeeIndex = 1}    
+   if (n < 1) {slideeeeIndex = slidessss.length}
+ for (let i = 0; i < slidessss.length; i++) {
+   slidessss[i].style.display = "none";  
+ }
+ for (let i = 0; i < dotsss.length; i++) {
+   dotsss[i].className = dotsss[i].className.replace(" active", "");
+ }
+   slidessss[slideeeeIndex-1].style.display = "flex";//block
+   dotsss[slideeeeIndex-1].className += " active";
+ }
+ 
+ showsssSlidessss(slideeeeIndex);
+ 
+ /*const btnPrev = document.querySelector(".btn-prev");
+ const btnNext = document.querySelector(".btn-next");
+ 
+ btnPrev.addEventListener("click", () => {positionSlides(-1);});
+ btnNext.addEventListener("click", () => {positionSlides(1);});*/
+ </script>-->
+ </noscript>
+<noscript>
+  INPUT
+  <div class="middle">
+    <div class="tt">
+            <form action="" onsubmit="return arg">
+                    <p>Работник ЖД</p>
+                    <label for="name">Имя</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    
+                    <br><label for="name">Фамилия</label><br>
+                    <input type="text" name="surname" id="surname"><br>
+                    <br><label for="hob">Должность:</label><br>
+                    <select name="hobbie">
+                            <option  value="Машинист">Машинист</option>
+                            <option  value="Проводник">Проводник</option>
+                            <option  value="Контролер">Контролер</option>
+                            </select><br>
+                            <br> <label for="skill" id="poezd">Поезда:</label><br>
+  
+                            <label for="s1">112
+                            <input type="checkbox" name="s1" id="s1" value="111"></label><br>                      
+                            <label for="s2">113
+                            <input type="checkbox" name="s2" value="113" id="s2">
+                          <br></label>
+                            <label for="s3">114 <input type="checkbox" name="s3" value="114" id="s3">
+                           </label><br>
+                           <br><label>Смена:</label><br>
+                            <label for="first"> Первая</label>   
+                            <input type="radio" name="time" id="first" value="Мужской">
+                            <label for="sec"> Вторая</label>
+                            <input type="radio" name="time" id="sec" value="Женский"><br><br>
+                            <label for="about">О себе:</label><br>
+                            <textarea name="" id="about" cols="30" rows="10">lel</textarea><br>
+                            <input type="submit" name="submit" id="submit" class="btn" value="Go" >
+  
+              </form>
+              <!-- <button name="submit" id="submit" class="btn">Войти</button> -->
+    </div>
+  </div>
+  <script>
+    let arg = true;
+  window.addEventListener('DOMContentLoaded', function(){
+      let errors =[]
+  
+      function error(errNames,text,form){         
+          let el;
+          /*Чекаем, передали мы атрибут name или id,в зависимости от этого присваеваем переменной el следуюшего соседа
+          для последующего insertBefore*/
+          if(elements[errNames]){ 
+               el = elements[errNames].nextSibling; 
+          } else {
+               el = errNames.nextSibling; 
+          }    
+          //ставим переменную arg в false, чтобы форма не отправлялась ,когда есть ошибки
+          arg =false;
+          errorTag = document.createElement('A')        
+          errorTag.innerHTML = `${text}`; 
+          errorTag.className = 'error'
+          form.insertBefore(errorTag,el); 
+          /*Добавляем в массив errors созданный элемент, в котором содержится
+              текст ошибки, дабы потом можно было его удалить, если
+              поле пройдет валидацию
+          */
+          errors.push(errorTag);
+      }
+  
+      function validate(form){
+          elements = form.elements;    
+          if(!elements.name.value){         
+              error('name', ' Не ввели имя',form);           
+          }
+          if(!elements.surname.value){          
+              error('surname', ' Не ввели фамилию',form);         
+          }
+          if(!elements.s1.checked && !elements.s2.checked && !elements.s3.checked){ 
+              error(poezd, ' Не выбраны поезда',form);  
+          }        
+      }
+  
+      submit.onclick = function(){
+          /*Если массив с созданными элементами, в которых содержится текст ошибок не пуст, то удаляем предыдущие ошибки с
+          страницы, дабы вставить новые, если они появились или удалить старые, если бы исправлены*/
+          if(errors.length > 0){       
+              for(let i = 0; i < errors.length; i++){                      
+                  errors[i].parentNode.removeChild(errors[i]);                
+              }     
+              errors = []      
+          } 
+          //Если массив с ошибками пуст, присваеваем переменной arg true, дабы отправить форму.
+          validate(document.forms[0]) 
+          if(errors.length == 0){
+              arg = true;
+          }
+      }   
+  })
+  </script>
+  </noscript>
 <noscript><!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 НЕ ЗНАЮ ПОКА ДЛЯ ЧЕГО ЭТОТ СКРИПТ, НАПИСАН У А.Г. В ВИДЕО ПО БУРГЕРУ--></noscript>
 <!DOCTYPE html>
@@ -15,6 +209,7 @@
     <link rel="stylesheet" type="text/css" href="normalize/normalize.css">
     <link rel="stylesheet" type="text/css" href="reset/reset.css"> <noscript><!--https://gist.github.com/DavidWells/18e73022e723037a50d6--></noscript>
     <link rel="stylesheet" type="text/css" href="fonts/font.css">
+    <!--<script type="text/javascript" defer src="script.js/main.js"></script>--> <noscript>подключить папку скрипт можно и в голове через дефер или внизу в футере, или перед закрывающим тегом боди</noscript>
    <noscript><!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
     <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">--></noscript>
@@ -67,60 +262,61 @@
         </div>
       </div>--></noscript>
       </div>
-    <header class="header" id="header">
+<header class="header" id="header">
       <!--<img src="images/image 6.png" alt="fon header">-->
       <div class="slider_demonstration-header">
-       <!--<div class="slider-wrapper-header">-->
-        <!--<div class="slideshow-container-header">-->
-         <div class="continer header-continer-menu"><noscript><!--НАВИГАЦИЯ ВСЕГДА ДОЛЖНА БЫТЬ НЕ ЗАВИСИМЫМ БЛОКОМ, ТАКЖЕ КАК КНОПКИ СЛАЙДЕРА, ЭТИ ЭЛЕМЕНТЫ ДОЛЖНЫ СТОЯТЬ В ОБЩЕЙ СЕКЦИИ, А НЕ В КАЖДОМ МАЙ СЛАДЕСЕ, ПОТОМУ ЧТО В ФАЙЛЕ ДЖАВА СКРИПТ ФУНКЦИИ ДЛЯ ЭЛЕМЕНТОВ ЭТИХ БЛОКОВ ПРОПИСЫВАЮТСЯ ОДИН РАЗ (ЭЛЕМЕНТЫ ТАКИЕ КАК ГАМБУРГЕР И КНОПКА ЗАКРЫТЬ. ЭТОТ ДИВ ПО ХОРОШЕМУ НУЖНО ИЗ МАЙ СЛАЙДЕСС ВЫНЕСТИ В ОБЩУЮ СЕКЦИЮ <div class="slider_demonstration-header">, ТАКЖЕ КАК ВЫНЕСЕНЫ БУЛЛИТЫ СЛАЙДЕРА--></noscript>
-         <div class="header__menu-content">
-          <div class="header-continer_menu">
-          <div class="header-logo">
-            <img class="img_tassel" src="images/tassel.png" alt="tassel">
-            <article class="header__logo-text">
-              <p class="header__logo-text_p">СИТИ</p>
-              <p class="header__logo-text_p" style="margin-top: -3px;">ПРО</p>
-            </article>
+            <!--<div class="slider-wrapper-header">-->
+            <!--<div class="slideshow-container-header">-->
+        <div class="continer header-continer-menu"><noscript><!--НАВИГАЦИЯ ВСЕГДА ДОЛЖНА БЫТЬ НЕ ЗАВИСИМЫМ БЛОКОМ, ТАКЖЕ КАК КНОПКИ СЛАЙДЕРА, ЭТИ ЭЛЕМЕНТЫ ДОЛЖНЫ СТОЯТЬ В ОБЩЕЙ СЕКЦИИ, А НЕ В КАЖДОМ МАЙ СЛАДЕСЕ, ПОТОМУ ЧТО В ФАЙЛЕ ДЖАВА СКРИПТ ФУНКЦИИ ДЛЯ ЭЛЕМЕНТОВ ЭТИХ БЛОКОВ ПРОПИСЫВАЮТСЯ ОДИН РАЗ (ЭЛЕМЕНТЫ ТАКИЕ КАК ГАМБУРГЕР И КНОПКА ЗАКРЫТЬ. ЭТОТ ДИВ ПО ХОРОШЕМУ НУЖНО ИЗ МАЙ СЛАЙДЕСС ВЫНЕСТИ В ОБЩУЮ СЕКЦИЮ <div class="slider_demonstration-header">, ТАКЖЕ КАК ВЫНЕСЕНЫ БУЛЛИТЫ СЛАЙДЕРА--></noscript>
+          <div class="header__menu-content">
+           <div class="header-continer_menu">
+             <div class="header-logo">
+              <img class="img_tassel" src="images/tassel.png" alt="tassel">
+              <article class="header__logo-text">
+                <p class="header__logo-text_p">СИТИ</p>
+                <p class="header__logo-text_p" style="margin-top: -3px;">ПРО</p>
+              </article>
+             </div>
+             <nav class="header-navigation">
+              <ul class="header__list-nav">
+                <li class="list-item" style="padding-right: 40px"><a class="header-link" href="#aboutUse">О нас</a></li>   
+                <li class="list-item2"><a class="header-link" href="#services">Виды услуг</a></li>
+                <li class="list-item2"><a class="header-link" href="#portfolio">Портфолио</a></li>
+                <li class="list-item2" style="padding-right: 40px"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
+                <li class="list-item" style="padding-left: 40p;"><a class="header-link" href="#contacts">Контакты</a></li>  
+              </ul>
+             </nav>
+             <div class="header-telephon">
+              <img class="elem pipe-phone"src="images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
+              <a href="tel:+79000000000" class="elem number">+7 900 000 00 00</a><noscript><!--Телефон записываем в ссылку для кликабельности, чтобы можно было позвонить по номеру прямо с сайта, кликнув на телефон-->
+              <!--<number class="elem number">+7 900 000 00 00</number>--></noscript>
+             </div>
+               <nav class="header-navigation-mob"><!--header-navigation-mob-open для js-->
+                  <button class="close">&times;
+                    <!--<img class="close-menu" src="images/button-close.svg" alt="">-->
+                  </button>
+                  <ul class="header__list-nav-mob">
+                   <li class="list-item-mob"><a class="header-link" href="#aboutUse">О нас</a></li>   
+                   <li class="list-item-mob"><a class="header-link" href="#services">Виды услуг</a></li>
+                   <li class="list-item-mob"><a class="header-link" href="#portfolio">Портфолио</a></li>
+                   <li class="list-item-mob"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
+                   <li class="list-item-mob"><a class="header-link" href="#contacts">Контакты</a></li>  
+                 </ul>
+                 <figure class="icons-mob">
+                   <img class="img-icons" src="images/vk.png" alt="vk">
+                   <img class="img-icons" src="images/telega.png" alt="telega">
+                   <img class="img-icons" src="images/Subtract.png" alt="sub">
+                   <img class="img-icons" src="images/Subtract-2.png" alt="sub">
+                 </figure>
+               </nav>
+               <figure class="hamburger">
+                 <svg class="burger" xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50" focusable="false" style="pointer-events: none; display: block; width: 120%; height: 120%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg>
+                 <!--<img class="burger" src="images/gamburger.svg" alt="burger">-->
+               </figure>
+           </div>
           </div>
-          <nav class="header-navigation">
-            <ul class="header__list-nav">
-              <li class="list-item" style="padding-right: 40px"><a class="header-link" href="#aboutUse">О нас</a></li>   
-              <li class="list-item2"><a class="header-link" href="#services">Виды услуг</a></li>
-              <li class="list-item2"><a class="header-link" href="#portfolio">Портфолио</a></li>
-              <li class="list-item2" style="padding-right: 40px"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
-              <li class="list-item" style="padding-left: 40p;"><a class="header-link" href="#contacts">Контакты</a></li>  
-            </ul>
-          </nav>
-          <div class="header-telephon">
-            <img class="elem pipe-phone"src="images/green-phone.png" style="padding-right: 10px;" alt="pipe-phone">
-            <a href="tel:+79000000000" class="elem number">+7 900 000 00 00</a><noscript><!--Телефон записываем в ссылку для кликабельности, чтобы можно было позвонить по номеру прямо с сайта, кликнув на телефон-->
-            <!--<number class="elem number">+7 900 000 00 00</number>--></noscript>
-          </div>
-             <nav class="header-navigation-mob"><!--header-navigation-mob-open для js-->
-                <button class="close">&times;
-              <!--<img class="close-menu" src="images/button-close.svg" alt="">-->
-            </button>
-            <ul class="header__list-nav-mob">
-              <li class="list-item-mob"><a class="header-link" href="#aboutUse">О нас</a></li>   
-              <li class="list-item-mob"><a class="header-link" href="#services">Виды услуг</a></li>
-              <li class="list-item-mob"><a class="header-link" href="#portfolio">Портфолио</a></li>
-              <li class="list-item-mob"><a class="header-link" href="#section-form">Оставьте заявку</a></li>  
-              <li class="list-item-mob"><a class="header-link" href="#contacts">Контакты</a></li>  
-            </ul>
-            <figure class="icons-mob">
-              <img class="img-icons" src="images/vk.png" alt="vk">
-              <img class="img-icons" src="images/telega.png" alt="telega">
-              <img class="img-icons" src="images/Subtract.png" alt="sub">
-              <img class="img-icons" src="images/Subtract-2.png" alt="sub">
-            </figure>
-          </nav>
-          <figure class="hamburger">
-            <svg class="burger" xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50" focusable="false" style="pointer-events: none; display: block; width: 120%; height: 120%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg>
-            <!--<img class="burger" src="images/gamburger.svg" alt="burger">-->
-          </figure>
-         </div>
         </div>
-       <noscript> <!--<div class="header-continer__common">-->
+              <noscript> <!--<div class="header-continer__common">-->
           <!--<div class="header-continer__common__text-button">
             <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
             <div class="header__button-common">
@@ -139,9 +335,9 @@
         <!--<figure class="header_filter_big-photo">
           <img class="big-photo" src="public/images/Layer-4-1.png" alt="dyer">
         </figure>-->
-      <!--</div>--></noscript>
-      </div> 
-  <div class="mySlidess" style="background-image: url('images/image-6.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);"> 
+          <!--</div>--></noscript>
+       
+      <div class="mySlidess" style="background-image: url('images/image-6.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);"> 
       <div class="common-slider-continer">
          <div class="header-continer__common__text-button">
             <h1 class="header__main-text">Реставрация лакокрасочного покрытия</h1>
@@ -164,9 +360,9 @@
         <figure class="header_filter_big-photo">
           <img class="big-photo" src="images/Layer-4-1.png"alt="dyer"><!-- style="width: 505px; height: 480px;"-->
         </figure>
-  </div>
- </div>
- <div class="mySlidess" style="background-image: url('images/image-6-1.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
+      </div>
+      </div>
+      <div class="mySlidess" style="background-image: url('images/image-6-1.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
          <div class="common-slider-continer">
            <div class="header-continer__common__text-button">
             <h1 class="header__main-text" style="width: 509px;">Профессиональная окраска интерьера</h1>
@@ -186,14 +382,14 @@
               </div>
             </div>
           </div>
-       <figure class="header_filter_big-photo">
+        <figure class="header_filter_big-photo">
           <img class="big-photo" src="images/Layer-2-1.png"  alt="dyer"><!--style="width:480px; height: 480px;"-->
         </figure>
-   </div>        
-  </div>
-  <div class="mySlidess" style="background-image: url('images/image-6-2.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
-  <div class="common-slider-continer">
-    <div class="header-continer__common__text-button">
+       </div>        
+      </div>
+      <div class="mySlidess" style="background-image: url('images/image-6-2.png'); background-size: cover; box-shadow: inset 1280px 771px rgb(0 0 0 / 7%);">
+      <div class="common-slider-continer">
+         <div class="header-continer__common__text-button">
             <h1 class="header__main-text">Профессиональная окраска экстерьера</h1>
             <div class="header__button-common">
                <div>
@@ -202,41 +398,44 @@
               </div>
                <div class="restangles-continer">
                 <number class="zOne">03</number>
+                <number class="zThree">03</number>
                 <noscript><!--<div class="restangles">
                   <figure class="elem2 restanglOne"></figure>
                   <figure class="elem2 restanglTwo"></figure>
                   <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>--></noscript>
-                <number class="zThree">03</number>
+                </div>-->
+                </noscript>
               </div>
             </div>
           </div>
-     <figure class="header_filter_big-photo">
-          <img class="big-photo" src="images/Layer-1-copy-1.png"  alt="dyer"><!--style="width: 465px; height: 480px;"-->
-        </figure>
-    </div>
-  </div>
-<div class="block-btn-header-continer">
- <noscript><!--<div class="btn btn-prev-header"> 
+          <figure class="header_filter_big-photo">
+            <img class="big-photo" src="images/Layer-1-copy-1.png"  alt="dyer"><!--style="width: 465px; height: 480px;"-->
+          </figure>
+       </div>
+      </div>
+      <div class="block-btn-header-continer">
+    <noscript><!--<div class="btn btn-prev-header"> 
     <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
- </div>--></noscript>
- <div class="block-dot-header">
-  <div class="dot" onclick="currentsSlidee(1)"></div> 
-  <div class="dot" onclick="currentsSlidee(2)"></div> 
-  <div class="dot" onclick="currentsSlidee(3)"></div>
-</div>
- <noscript><!--<div class="btn btn-next-header">
-    <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
- </div>--></noscript>
- </div>
-<!--</div>-->
-<!--</div>-->
-</div>
+    </div>-->
+    </noscript>
+   <div class="block-dot-header">
+     <div class="dot" onclick="currentsSlidee(1)"></div> 
+     <div class="dot" onclick="currentsSlidee(2)"></div> 
+     <div class="dot" onclick="currentsSlidee(3)"></div>
+   </div>
+    <noscript><!--<div class="btn btn-next-header">
+      <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
+      </div>-->
+    </noscript>
+      </div>
+      <!--</div>-->
+      <!--</div>-->
+     </div>
       <figure class="filter__header-restangle_bottom">
         <img class="header-restangle_bottom"src="images/Rectangle-688.png" alt="restangle">
         <figcaption style="display:none;">Restangle</figcaption>
       </figure>
-    </header>
+  </header>
     <main>
      <section class="aboutUse" id="aboutUse">
       <div class="continer section-continer">
@@ -661,18 +860,24 @@
           <h2 class="form-title">Оставьте заявку</h2>
            <div class="forms-common">
             <div class="forms">
-              <form class="form-name" action="https://city.pro.ru" method="post" action="input.php" target="_blank">
+              <form class="form-name" action="/https://city.pro.ru" method="post" target="_blank" ata-error="Ошибка"><noscript>data-error="Ошибка", нужно для красного бордера при ошибке,
+                пока не работает, скорее всего это для регистрации и пароля. action="input.php"</noscript>
                <label class="name" for="input">Ваше имя</label>
-               <input class="inName" type="text" name="text" laceholder="Введите Ваше имя:" autocomplete="off"></input><!--Добавление autocomplete="off" в элемент ввода должно помешать браузеру отображать последние дополнения к списку дел при нажатии на поле ввода, уберу появится всплывающее белое окошко, со словами, которые я записывал в инпут-->
+               <input class="inName" type="text" name="name" placeholder="Введите Ваше имя:" autocomplete="off"></input>
+               <noscript><!--Добавление autocomplete="off" в элемент ввода должно помешать браузеру отображать последние дополнения к списку
+                   дел при нажатии на поле ввода, уберу появится всплывающее белое окошко,
+                   со словами, которые я записывал в инпут. value="Name" можно вместо плэсхолдера, тогда в центре инпута
+                   будет то, что пропишу в  value чёрным цветом 100%. pattern пишет, чтоб ввели данные в указаном формате-->
+               </noscript>
               </form>
-              <form class="form-telephon" action="https://city.pro.ru" method="post" action="input.php" target="_blank">
+              <form class="form-telephon" action="/https://city.pro.ru" method="post" target="_blank" ata-error="Ошибка"><noscript>action="input.php"</noscript>
                 <label class="telephon" for="input">Номер телефона</label>
-                <input class="inTelephon" type="text" name="telephon" alue="Введите Ваш телефон:">
+                <input class="inTelephon" type="tel" name="telephon" placeholder="Введите Ваш телефон" attern="[0-9]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}" required autocomplete="off"><noscript>ТАК МОЖНО ПИСАТЬ В ИНПУТЕ ТЕЛЕФОН placeholder="7 499 123-45-67" pattern="[0-9]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}". value можно вместо плэсхолдера</noscript>
               </form>
             </div>
-              <form class="form-massege" action="https://city.pro.ru" method="post" action="input.php" target="_blank">
+              <form class="form-massege" action="/https://city.pro.ru" method="post" target="_blank"><noscript>action="input.php"</noscript>
                <label class="massege" for="input">Ваше сообщение</label>
-               <input class="inMassege" type="text" name="massege" alue="Введите Ваше сообщение:">
+               <input class="inMassege" type="text" name="massege" placeholder="Введите Ваше сообщение:" autocomplete="off"><noscript>value</noscript>
               </form>
            </div>
            <form class="formCheckbox">
@@ -752,8 +957,8 @@
               <li class="menu-item"><a class="date-link" href="#Оставить заявку">Оставить заявку</a></li>
               <li class="menu-item"><a class="date-link" href="#Контакты">Контакты</a></li>
             </ul>
-             <a class="header-link" href="pages/privacy.html" title="Переход к privacy странице 👋"><h5 class="date-h5">Политика конфиденциальности</h5></a>
-            <article class="maxocom">
+             <a class="footer-link" href="pages/privacy.html" title="Переход к privacy странице 👋"><h5 class="date-h5">Политика конфиденциальности</h5></a>
+             <article class="maxocom">
               <h4 class="date-h4Two">Разработано</h4>
               <img class="img-maxocom" src="images/maxocom.png">
             </article>
@@ -790,9 +995,9 @@
            <a href="#header" class="filter-fixed-button"><img class="fixed-button" src="images/Group-661.png" alt=""></a>
         </div>
       </div>
-      <script type="text/javascript"src="script.js/main.js"></script>
+     <script type="text/javascript" src="script.js/main.js"></script> <noscript>Папку скрипт можно подключить здесь или в голове через дефер</noscript>
       <script type="text/javascript" src="library-jq.js/main-jq.js"></script><noscript><!--для плавного переключения страниц-->
-        <!--<script type="text/javascript" src="./dist/swup.js"></script>рекомендация от А.Сокирко 
+      <!--<script type="text/javascript" src="./dist/swup.js"></script>рекомендация от А.Сокирко 
       ПЛАВНЫЙ ПЕРЕХОД МЕЖДУ СТР https://www.youtube.com/watch?v=7jr0eUmknsk&t=440s--></noscript>
    </footer>
     <script> 
@@ -800,112 +1005,49 @@
       $("body").css("opacity", "1");
     });
   </script>
-   <noscript><script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script> для меню гамбургер - тут работает 50/50 https://www.youtube.com/watch?v=CQL8B3wRBA0
+
+  <noscript><script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" 
+  integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
   <script>
-    $(function () {
-  $('.hamburger').click(function () {
-   $('.header-navigation-mob').toggleClass('.show-menu')
+  SmoothScroll({
+  // Время скролла 400 = 0.4 секунды
+  animationTime : 800,
+  // Размер шага в пикселях
+  stepSize : 75,
+  
+  // Дополнительные настройки:
+  
+  // Ускорение
+  accelerationDelta : 30,
+  // Максимальное ускорение
+  accelerationMax : 2,
+  
+  // Поддержка клавиатуры
+  keyboardSupport : true,
+  // Шаг скролла стрелками на клавиатуре в пикселях
+  arrowScroll : 50,
+  
+  // Pulse (less tweakable)
+  // ratio of "tail" to "acceleration"
+  pulseAlgorithm : true,
+  pulseScale : 4,
+  pulseNormalize : 1,
+  
+  // Поддержка тачпада
+  touchpadSupport : true,
   })
-});
-  </script></noscript>
-  </body>
+  </script>
+  </noscript>
+
+   <noscript>
+   <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script> для меню гамбургер - тут работает 50/50 https://www.youtube.com/watch?v=CQL8B3wRBA0
+   <script>
+     $(function () {
+      $('.hamburger').click(function () {
+       $('.header-navigation-mob').toggleClass('.show-menu')
+      })
+    });
+  </script>
+  </noscript>
+ </body>
 </html>
-
-
-<noscript>
- <!--<div class="slider_demonstration-portfolio-tablet">
-         <div class="slider-wrapper-portfolio-tablet">
-           <div class="slideshow-container-portfolio-tablet">
-            <div class="mySlidessss">  
-             <div class="portfolio-tablet-continer__common__text-button">
-              <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-                <picture class="filter__img-building">
-               <img class="img-building" src="public/images/image 5.png" alt="building"></picture>
-              <div class="services__button-common">
-              <div class="restangles-continer-services">
-                <number class="zOne">01</number>
-                !--<div class="restangles">
-                  <figure class="elem2 restanglOne"></figure>
-                  <figure class="elem2 restanglTwo"></figure>
-                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>--
-                <number class="zThree">03</number>
-              </div>
-            </div>
-             <article class="portfolio-subtitle">
-               <h3 class="subtitle_portfolio">Kazakov Grand Loft</h3>
-               <article class="portfolio-paragrafs">
-                 <p class="paragraf_portfolio">Kazakov Grand Loft — новый проект в исторической части Москвы, дом для тех, кто не идет на компромиссы. Все, на что город будет равняться в обозримой перспективе, находится здесь. И в центре этого мира вы. Индивидуальность даже в мелочах и комфорт, возведенный в абсолют — чем не рецепт совершенства?</p>
-                 <p class="paragraf_portfolio">Проект прогрессивной авторской архитектуры, умного наполнения и персональных панорамных видов на город. Здесь созданы условия премиального сервиса, чтобы вы не отвлекались на бытовые мелочи, а просто наслаждались жизнью.</p>
-               </article>
-            </article>
-          </div>
-        </div>
-        <div class="mySlidessss">  
-             <div class="portfolio-tablet-continer__common__text-button">
-               <h2 class="title_portfolio">ПОРТФОЛИО работ</h2>
-                <picture class="filter__img-building">
-               <img class="img-building" src="public/images/image 6.png" alt="building"></picture>
-              <div class="services__button-common">
-              <div class="restangles-continer-services">
-                <number class="zOne">02</number>
-                !--<div class="restangles">
-                  <figure class="elem2 restanglOne"></figure>
-                  <figure class="elem2 restanglTwo"></figure>
-                  <figure class="elem2 restanglThree" style="margin-right: 17px;"></figure>
-                </div>--
-                <number class="zThree">03</number>
-              </div>
-            </div>
-          </div>
-        </div>
-<div class="block-btn-portfolio-tablet-continer">
- !--<div class="btn btn-prev-adventages"> 
-    <img class="img-arrowLeft" src="public/images/arrow-left-green.png" alt="arrow left">
- </div>--
- <div class="block-dottt-portfolio-tablet">
-  <div class="dottt" onclick="currentsssSlideeee(1)"></div> 
-  <div class="dottt" onclick="currentsssSlideeee(2)"></div> 
-  <div class="dottt" onclick="currentsssSlideeee(3)"></div>
-</div>
- !--<div class="btn btn-next-adventages">
-    <img class="img-arrowRight" src="public/images/arrow-right-green.png" alt="arrow right">
- </div>--
- </div>
-</div>
-</div>
-</div>
-<script>
-let slideeeeIndex = 1;
-function positionsssSlidessss(n) {
-  showsssSlidessss(slideeeeIndex += n);
-} 
-
-function currentsssSlideeee(n) {
-  showsssSlidessss(slideeeeIndex = n);
-}
-
-function showsssSlidessss(n) {
-  let slidessss = document.getElementsByClassName("mySlidessss");
-  let dotsss = document.getElementsByClassName("dottt");  
-  if (n > slidessss.length) {slideeeeIndex = 1}    
-  if (n < 1) {slideeeeIndex = slidessss.length}
-for (let i = 0; i < slidessss.length; i++) {
-  slidessss[i].style.display = "none";  
-}
-for (let i = 0; i < dotsss.length; i++) {
-  dotsss[i].className = dotsss[i].className.replace(" active", "");
-}
-  slidessss[slideeeeIndex-1].style.display = "flex";//block
-  dotsss[slideeeeIndex-1].className += " active";
-}
-
-showsssSlidessss(slideeeeIndex);
-
-/*const btnPrev = document.querySelector(".btn-prev");
-const btnNext = document.querySelector(".btn-next");
-
-btnPrev.addEventListener("click", () => {positionSlides(-1);});
-btnNext.addEventListener("click", () => {positionSlides(1);});*/
-</script>-->
-</script>
